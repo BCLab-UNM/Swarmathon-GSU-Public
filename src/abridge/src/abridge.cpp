@@ -150,11 +150,11 @@ void driveCommandHandler(const geometry_msgs::Twist::ConstPtr& message) {
   // ********************************************************* 
   // Change these six values to tune the PID.  
   // *********************************************************
-  float Kpv = 140; //Proportinal Velocity
+  float Kpv = 200; //Proportinal Velocity
   float Kiv = 20; //Integral Velocity
   float Kdv = 15; //Derivative Velocity
   
-  float Kpy = 200; //Proportinal Yaw   
+  float Kpy = 200; //Proportinal Yaw
   float Kiy = 15; //Inegral Yaw
   float Kdy = 15; //Derivative Yaw
   

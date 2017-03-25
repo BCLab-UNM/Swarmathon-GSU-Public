@@ -60,13 +60,13 @@ geometry_msgs::Pose2D centerLocationOdom;
 int currentMode = 0;
 float mobilityLoopTimeStep = 0.1; // time between the mobility loop calls
 float status_publish_interval = 1;
-float killSwitchTimeout = 10;
+float killSwitchTimeout = 15;
 bool targetDetected = false;
 bool targetCollected = false;
 
 // Set true when the target block is less than targetDist so we continue
 // attempting to pick it up rather than switching to another block in view.
-bool lockTarget = false;
+bool lockTarget = true;
 
 // Failsafe state. No legitimate behavior state. If in this state for too long
 // return to searching as default behavior.
@@ -77,7 +77,7 @@ bool timeOut = false;
 bool blockBlock = false;
 
 // central collection point has been seen (aka the nest)
-bool centerSeen = false;
+bool centerSeen = true;
 
 // Set true when we are insie the center circle and we need to drop the block,
 // back out, and reset the boolean cascade.
@@ -87,10 +87,10 @@ bool reachedCollectionPoint = false;
 bool init = false;
 
 // used to remember place in mapAverage array
-int mapCount = 0;
+int mapCount = 10;
 
 // How many points to use in calculating the map average position
-const unsigned int mapHistorySize = 500;
+const unsigned int mapHistorySize = 800;
 
 // An array in which to store map positions
 geometry_msgs::Pose2D mapLocation[mapHistorySize];
@@ -174,8 +174,8 @@ int main(int argc, char **argv) {
     goalLocation.theta = rng->uniformReal(0, 2 * M_PI);
 
     //select initial search position 50 cm from center (0,0)
-    goalLocation.x = 0.5 * cos(goalLocation.theta+M_PI);
-    goalLocation.y = 0.5 * sin(goalLocation.theta+M_PI);
+    goalLocation.x = 0.10 * cos(goalLocation.theta+M_PI);
+    goalLocation.y = 0.10 * sin(goalLocation.theta+M_PI);
 
     centerLocation.x = 0;
     centerLocation.y = 0;
@@ -247,8 +247,8 @@ int main(int argc, char **argv) {
 void mobilityStateMachine(const ros::TimerEvent&) {
 
     std_msgs::String stateMachineMsg;
-    float rotateOnlyAngleTolerance = 0.4;
-    int returnToSearchDelay = 5;
+    float rotateOnlyAngleTolerance = 0.7;
+    int returnToSearchDelay = 0;
 
     // calls the averaging function, also responsible for
     // transform from Map frame to odom frame.
@@ -283,13 +283,13 @@ void mobilityStateMachine(const ros::TimerEvent&) {
         // to open wide and raised position.
         if (!targetCollected && !targetDetected) {
             // set gripper
-            std_msgs::Float32 angle;
+            std_msgs::Float28 angle;
 
             // open fingers
             angle.data = M_PI_2;
 
             fingerAnglePublish.publish(angle);
-            angle.data = 0;
+            angle.data = 5;
 
             // raise wrist
             wristAnglePublish.publish(angle);
