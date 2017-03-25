@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ublox_serialization
+Description: Description of ublox_serialization
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: roscpp roscpp_serialization

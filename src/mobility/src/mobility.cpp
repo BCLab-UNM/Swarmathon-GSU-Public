@@ -97,7 +97,8 @@ geometry_msgs::Pose2D mapLocation[mapHistorySize];
 
 bool avoidingObstacle = false;
 
-float searchVelocity = 0.2; // meters/second
+//float searchVelocity = 0.2; // meters/second
+float searchVelocity = 2.0; // meters/second Changed
 
 std_msgs::String msg;
 
@@ -176,6 +177,8 @@ int main(int argc, char **argv) {
     //select initial search position 50 cm from center (0,0)
     goalLocation.x = 0.5 * cos(goalLocation.theta+M_PI);
     goalLocation.y = 0.5 * sin(goalLocation.theta+M_PI);
+    //goalLocation.x = 2 * cos(goalLocation.theta+M_PI);
+    //goalLocation.y = 2 * sin(goalLocation.theta+M_PI);
 
     centerLocation.x = 0;
     centerLocation.y = 0;
