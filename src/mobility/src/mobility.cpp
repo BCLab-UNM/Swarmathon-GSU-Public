@@ -169,7 +169,8 @@ int main(int argc, char **argv) {
     string hostname(host);
 
     // instantiate random number generator
-    rng = new random_numbers::RandomNumberGenerator();
+    //rng = new random_numbers::RandomNumberGenerator();
+    rng = 1;
 
     //set initial random heading
     goalLocation.theta = rng->uniformReal(0, 2 * M_PI);
