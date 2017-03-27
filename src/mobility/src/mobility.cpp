@@ -70,7 +70,7 @@ bool lockTarget = true;
 
 // Failsafe state. No legitimate behavior state. If in this state for too long
 // return to searching as default behavior.
-bool timeOut = false;
+bool timeOut = true;
 
 // Set to true when the center ultrasound reads less than 0.14m. Usually means
 // a picked up cube is in the way.
