@@ -12,7 +12,8 @@
 using namespace std;
 
 //Globals
-double collisionDistance = 0.6; //meters the ultrasonic detectors will flag obstacles
+//double collisionDistance = 0.6; //meters the ultrasonic detectors will flag obstacles
+double collisionDistance = 2.0; //meters the ultrasonic detectors will flag obstacles
 string publishedName;
 char host[128];
 
@@ -39,9 +40,9 @@ int main(int argc, char** argv) {
     
     obstaclePublish = oNH.advertise<std_msgs::UInt8>((publishedName + "/obstacle"), 10);
     
-    message_filters::Subscriber<sensor_msgs::Range> sonarLeftSubscriber(oNH, (publishedName + "/sonarLeft"), 10);
-    message_filters::Subscriber<sensor_msgs::Range> sonarCenterSubscriber(oNH, (publishedName + "/sonarCenter"), 10);
-    message_filters::Subscriber<sensor_msgs::Range> sonarRightSubscriber(oNH, (publishedName + "/sonarRight"), 10);
+    message_filters::Subscriber<sensor_msgs::Range> sonarLeftSubscriber(oNH, (publishedName + "/sonarLeft"), 20);
+    message_filters::Subscriber<sensor_msgs::Range> sonarCenterSubscriber(oNH, (publishedName + "/sonarCenter"), 20);
+    message_filters::Subscriber<sensor_msgs::Range> sonarRightSubscriber(oNH, (publishedName + "/sonarRight"), 20);
 
     typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::Range, sensor_msgs::Range, sensor_msgs::Range> sonarSyncPolicy;
 
