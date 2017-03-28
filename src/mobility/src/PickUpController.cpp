@@ -1,7 +1,8 @@
 #include "PickUpController.h"
 
 PickUpController::PickUpController() {
-    lockTarget = false;
+    //lockTarget = false;
+    lockTarget = true;  // changes
     timeOut = false;
     nTargetsSeen = 0;
     blockYawError = 0;
@@ -20,6 +21,7 @@ PickUpController::PickUpController() {
 PickUpResult PickUpController::pickUpSelectedTarget(bool blockBlock) {
     //threshold distance to be from the target block before attempting pickup
     float targetDist = 0.25; //meters
+
 
 
     /*PickUpResult result;
