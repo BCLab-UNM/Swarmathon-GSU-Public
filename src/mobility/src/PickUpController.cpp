@@ -1,8 +1,7 @@
 #include "PickUpController.h"
 
 PickUpController::PickUpController() {
-    //lockTarget = false;
-    lockTarget = true;  // changes
+    lockTarget = false;
     timeOut = false;
     nTargetsSeen = 0;
     blockYawError = 0;

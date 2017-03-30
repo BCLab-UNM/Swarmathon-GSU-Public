@@ -169,8 +169,8 @@ int main(int argc, char **argv) {
     string hostname(host);
 
     // instantiate random number generator
-    //rng = new random_numbers::RandomNumberGenerator();
-    rng = 1;
+    rng = new random_numbers::RandomNumberGenerator();
+
 
     //set initial random heading
     goalLocation.theta = rng->uniformReal(0, 2 * M_PI);
@@ -178,8 +178,7 @@ int main(int argc, char **argv) {
     //select initial search position 50 cm from center (0,0)
     goalLocation.x = 0.5 * cos(goalLocation.theta+M_PI);
     goalLocation.y = 0.5 * sin(goalLocation.theta+M_PI);
-    //goalLocation.x = 2 * cos(goalLocation.theta+M_PI);
-    //goalLocation.y = 2 * sin(goalLocation.theta+M_PI);
+
 
     centerLocation.x = 0;
     centerLocation.y = 0;
