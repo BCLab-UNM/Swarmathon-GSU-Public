@@ -175,12 +175,14 @@ int main(int argc, char **argv) {
     // instantiate random number generator
     rng = new random_numbers::RandomNumberGenerator();
 
+
     //set initial random heading
     goalLocation.theta = rng->uniformReal(0, 2 * M_PI);
 
     //select initial search position 50 cm from center (0,0)
-    goalLocation.x = 0.10 * cos(goalLocation.theta+M_PI);
-    goalLocation.y = 0.10 * sin(goalLocation.theta+M_PI);
+    goalLocation.x = 0.5 * cos(goalLocation.theta+M_PI);
+    goalLocation.y = 0.5 * sin(goalLocation.theta+M_PI);
+
 
     centerLocation.x = 0;
     centerLocation.y = 0;
