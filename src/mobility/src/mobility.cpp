@@ -183,7 +183,6 @@ int main(int argc, char **argv) {
     goalLocation.x = 0.5 * cos(goalLocation.theta+M_PI);
     goalLocation.y = 0.5 * sin(goalLocation.theta+M_PI);
 
-
     centerLocation.x = 0;
     centerLocation.y = 0;
     centerLocationOdom.x = 0;
