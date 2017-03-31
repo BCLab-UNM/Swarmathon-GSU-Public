@@ -10,13 +10,12 @@
  */
 class SearchController {
 
-public:
+  public:
 
     SearchController();
 
     // performs search pattern
     geometry_msgs::Pose2D search(geometry_msgs::Pose2D currentLocation);
-
 
 
     using namespace std;
@@ -35,7 +34,7 @@ public: stack::stack();
     };
 
 
-    int main(){
+    int main() {
         struct node{
             int info;
             struct node *next;
@@ -55,34 +54,34 @@ stack:
                 cout<<"Memory Exhausted";
                 exit(0);
             }
-
+            
             p = new node;
             p->info = data;
             p->next = NULL;
-
+            
             if(top!= NULL){
                 p->next = top;
             }
-
+            
             top = p;
 
         int stack::pop();{
-
+        
         node * temp;
             int value;
-
+            
             if(top == NULL)
             {
                 cout<<"\nThe stack is Empty"<<endl;
             }
-
+            
             else{
                 temp = top;
                 top = top->next;
                 value = temp->info;
                 delete temp;
             }
-
+            
             return value;
         }
 
@@ -131,7 +130,7 @@ stack:
             for (int i = 0; i < n; ++i)
                 delete [] A[i];
             delete [] A;}
-
+        
 
         bool Graph::isConnected(int x, int y);{
             return (A[x-1][y-1] == 1);
@@ -176,8 +175,8 @@ stack:
             return 0;
         }
 
-
-
+    
+ 
     // continues search pattern after interruption
     geometry_msgs::Pose2D continueInterruptedSearch(geometry_msgs::Pose2D currentLocation, geometry_msgs::Pose2D oldGoalLocation);
 
