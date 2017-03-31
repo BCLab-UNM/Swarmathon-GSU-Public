@@ -200,7 +200,7 @@ int main(int argc, char **argv) {
              << "!  Mobility turnDirectionule started." << endl;
     } else {
         publishedName = hostname;
-        cout << "No Name Selected. Default is: " << publishedName << endl;
+        cout << "Go Tiger-Bot!" << publishedName << endl;
     }
 
     // NoSignalHandler so we can catch SIGINT ourselves and shutdown the node
