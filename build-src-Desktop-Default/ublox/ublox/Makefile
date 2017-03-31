@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -160,7 +193,11 @@ _catkin_empty_exported_target: ublox/ublox/CMakeFiles/_catkin_empty_exported_tar
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/build.make ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/build.make ublox/ublox/CMakeFiles/_catkin_empty_exported_target.dir/build
+>>>>>>> master
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -188,6 +225,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

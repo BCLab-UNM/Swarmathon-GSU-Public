@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
+<<<<<<< HEAD
 SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/group1/rover_workspace/build-src-Desktop-Default")
+=======
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/group3/rover_workspace/build-src-Desktop-Default")
+>>>>>>> master
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)

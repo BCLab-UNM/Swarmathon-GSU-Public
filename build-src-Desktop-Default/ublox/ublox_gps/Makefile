@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_gps/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_gps/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -160,12 +193,20 @@ diagnostic_msgs_generate_messages_cpp: ublox/ublox_gps/CMakeFiles/diagnostic_msg
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +215,20 @@ diagnostic_msgs_generate_messages_lisp: ublox/ublox_gps/CMakeFiles/diagnostic_ms
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : diagnostic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -188,12 +237,20 @@ diagnostic_msgs_generate_messages_py: ublox/ublox_gps/CMakeFiles/diagnostic_msgs
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make ublox/ublox_gps/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : diagnostic_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ublox/ublox_gps/CMakeFiles/ublox_gps.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/ublox_gps.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/ublox_gps.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox_gps/CMakeFiles/ublox_gps.dir/rule
 
 # Convenience name for target.
@@ -202,12 +259,20 @@ ublox_gps: ublox/ublox_gps/CMakeFiles/ublox_gps.dir/rule
 
 # fast build rule for target.
 ublox_gps/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build
+>>>>>>> master
 .PHONY : ublox_gps/fast
 
 # Convenience name for target.
 ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/rule
+>>>>>>> master
 .PHONY : ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/rule
 
 # Convenience name for target.
@@ -216,7 +281,11 @@ ublox_gps_node: ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/rule
 
 # fast build rule for target.
 ublox_gps_node/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build
+>>>>>>> master
 .PHONY : ublox_gps_node/fast
 
 src/gps.o: src/gps.cpp.o
@@ -224,7 +293,11 @@ src/gps.o: src/gps.cpp.o
 
 # target to build an object file
 src/gps.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.o
+>>>>>>> master
 .PHONY : src/gps.cpp.o
 
 src/gps.i: src/gps.cpp.i
@@ -232,7 +305,11 @@ src/gps.i: src/gps.cpp.i
 
 # target to preprocess a source file
 src/gps.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.i
+>>>>>>> master
 .PHONY : src/gps.cpp.i
 
 src/gps.s: src/gps.cpp.s
@@ -240,7 +317,11 @@ src/gps.s: src/gps.cpp.s
 
 # target to generate assembly for a file
 src/gps.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps.dir/src/gps.cpp.s
+>>>>>>> master
 .PHONY : src/gps.cpp.s
 
 src/node.o: src/node.cpp.o
@@ -248,7 +329,11 @@ src/node.o: src/node.cpp.o
 
 # target to build an object file
 src/node.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.o
+>>>>>>> master
 .PHONY : src/node.cpp.o
 
 src/node.i: src/node.cpp.i
@@ -256,7 +341,11 @@ src/node.i: src/node.cpp.i
 
 # target to preprocess a source file
 src/node.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.i
+>>>>>>> master
 .PHONY : src/node.cpp.i
 
 src/node.s: src/node.cpp.s
@@ -264,7 +353,11 @@ src/node.s: src/node.cpp.s
 
 # target to generate assembly for a file
 src/node.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/build.make ublox/ublox_gps/CMakeFiles/ublox_gps_node.dir/src/node.cpp.s
+>>>>>>> master
 .PHONY : src/node.cpp.s
 
 # Help Target
@@ -302,6 +395,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

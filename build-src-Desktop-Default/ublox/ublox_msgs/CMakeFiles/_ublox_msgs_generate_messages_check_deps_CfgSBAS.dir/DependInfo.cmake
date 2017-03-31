@@ -17,8 +17,13 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "devel/include"
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/ublox/ublox_msgs/include"
   "/home/group1/rover_workspace/src/ublox/ublox_serialization/include"
+=======
+  "/home/group3/rover_workspace/src/ublox/ublox_msgs/include"
+  "/home/group3/rover_workspace/src/ublox/ublox_serialization/include"
+>>>>>>> master
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

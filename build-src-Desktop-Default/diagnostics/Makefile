@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 diagnostics/CMakeFiles/diagnostics.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/diagnostics.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/diagnostics.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/rule
 
 # Convenience name for target.
@@ -160,12 +193,20 @@ diagnostics: diagnostics/CMakeFiles/diagnostics.dir/rule
 
 # fast build rule for target.
 diagnostics/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/build
+>>>>>>> master
 .PHONY : diagnostics/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -174,12 +215,20 @@ dynamic_reconfigure_gencfg: diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.di
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+>>>>>>> master
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +237,20 @@ dynamic_reconfigure_generate_messages_cpp: diagnostics/CMakeFiles/dynamic_reconf
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +259,20 @@ dynamic_reconfigure_generate_messages_lisp: diagnostics/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -216,12 +281,20 @@ dynamic_reconfigure_generate_messages_py: diagnostics/CMakeFiles/dynamic_reconfi
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make diagnostics/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +303,20 @@ gazebo_msgs_generate_messages_cpp: diagnostics/CMakeFiles/gazebo_msgs_generate_m
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +325,20 @@ gazebo_msgs_generate_messages_lisp: diagnostics/CMakeFiles/gazebo_msgs_generate_
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -258,12 +347,20 @@ gazebo_msgs_generate_messages_py: diagnostics/CMakeFiles/gazebo_msgs_generate_me
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -272,12 +369,20 @@ gazebo_ros_gencfg: diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/build.make diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/build.make diagnostics/CMakeFiles/gazebo_ros_gencfg.dir/build
+>>>>>>> master
 .PHONY : gazebo_ros_gencfg/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +391,20 @@ std_srvs_generate_messages_cpp: diagnostics/CMakeFiles/std_srvs_generate_message
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -300,12 +413,20 @@ std_srvs_generate_messages_lisp: diagnostics/CMakeFiles/std_srvs_generate_messag
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +435,20 @@ std_srvs_generate_messages_py: diagnostics/CMakeFiles/std_srvs_generate_messages
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/std_srvs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -328,12 +457,20 @@ trajectory_msgs_generate_messages_cpp: diagnostics/CMakeFiles/trajectory_msgs_ge
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +479,20 @@ trajectory_msgs_generate_messages_lisp: diagnostics/CMakeFiles/trajectory_msgs_g
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -356,7 +501,11 @@ trajectory_msgs_generate_messages_py: diagnostics/CMakeFiles/trajectory_msgs_gen
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make diagnostics/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 src/Diagnostics.o: src/Diagnostics.cpp.o
@@ -364,7 +513,11 @@ src/Diagnostics.o: src/Diagnostics.cpp.o
 
 # target to build an object file
 src/Diagnostics.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o
+>>>>>>> master
 .PHONY : src/Diagnostics.cpp.o
 
 src/Diagnostics.i: src/Diagnostics.cpp.i
@@ -372,7 +525,11 @@ src/Diagnostics.i: src/Diagnostics.cpp.i
 
 # target to preprocess a source file
 src/Diagnostics.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i
+>>>>>>> master
 .PHONY : src/Diagnostics.cpp.i
 
 src/Diagnostics.s: src/Diagnostics.cpp.s
@@ -380,7 +537,11 @@ src/Diagnostics.s: src/Diagnostics.cpp.s
 
 # target to generate assembly for a file
 src/Diagnostics.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s
+>>>>>>> master
 .PHONY : src/Diagnostics.cpp.s
 
 src/WirelessDiags.o: src/WirelessDiags.cpp.o
@@ -388,7 +549,11 @@ src/WirelessDiags.o: src/WirelessDiags.cpp.o
 
 # target to build an object file
 src/WirelessDiags.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o
+>>>>>>> master
 .PHONY : src/WirelessDiags.cpp.o
 
 src/WirelessDiags.i: src/WirelessDiags.cpp.i
@@ -396,7 +561,11 @@ src/WirelessDiags.i: src/WirelessDiags.cpp.i
 
 # target to preprocess a source file
 src/WirelessDiags.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i
+>>>>>>> master
 .PHONY : src/WirelessDiags.cpp.i
 
 src/WirelessDiags.s: src/WirelessDiags.cpp.s
@@ -404,7 +573,11 @@ src/WirelessDiags.s: src/WirelessDiags.cpp.s
 
 # target to generate assembly for a file
 src/WirelessDiags.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s
+>>>>>>> master
 .PHONY : src/WirelessDiags.cpp.s
 
 src/driver.o: src/driver.cpp.o
@@ -412,7 +585,11 @@ src/driver.o: src/driver.cpp.o
 
 # target to build an object file
 src/driver.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o
+>>>>>>> master
 .PHONY : src/driver.cpp.o
 
 src/driver.i: src/driver.cpp.i
@@ -420,7 +597,11 @@ src/driver.i: src/driver.cpp.i
 
 # target to preprocess a source file
 src/driver.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.i
+>>>>>>> master
 .PHONY : src/driver.cpp.i
 
 src/driver.s: src/driver.cpp.s
@@ -428,7 +609,11 @@ src/driver.s: src/driver.cpp.s
 
 # target to generate assembly for a file
 src/driver.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f diagnostics/CMakeFiles/diagnostics.dir/build.make diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.s
+>>>>>>> master
 .PHONY : src/driver.cpp.s
 
 # Help Target
@@ -479,6 +664,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

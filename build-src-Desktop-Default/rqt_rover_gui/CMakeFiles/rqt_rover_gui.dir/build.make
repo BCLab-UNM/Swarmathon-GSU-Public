@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend.make
@@ -49,6 +56,7 @@ include rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 
+<<<<<<< HEAD
 rqt_rover_gui/qrc_resources.cxx: /home/group1/rover_workspace/src/rqt_rover_gui/resources/rover.png
 rqt_rover_gui/qrc_resources.cxx: rqt_rover_gui/resources/resources.qrc.depends
 rqt_rover_gui/qrc_resources.cxx: /home/group1/rover_workspace/src/rqt_rover_gui/resources/resources.qrc
@@ -109,6 +117,68 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/Version.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/Version.cpp -o CMakeFiles/rqt_rover_gui.dir/Version.cpp.s
+=======
+rqt_rover_gui/qrc_resources.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/resources/rover.png
+rqt_rover_gui/qrc_resources.cxx: rqt_rover_gui/resources/resources.qrc.depends
+rqt_rover_gui/qrc_resources.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/resources/resources.qrc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_resources.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name resources -o /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/qrc_resources.cxx /home/group3/rover_workspace/src/rqt_rover_gui/resources/resources.qrc
+
+rqt_rover_gui/src/moc_rover_gui_plugin.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_rover_gui_plugin.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx_parameters
+
+rqt_rover_gui/src/moc_CameraFrame.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/CameraFrame.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_CameraFrame.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx_parameters
+
+rqt_rover_gui/src/moc_MapFrame.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/MapFrame.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_MapFrame.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx_parameters
+
+rqt_rover_gui/src/moc_USFrame.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/USFrame.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_USFrame.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx_parameters
+
+rqt_rover_gui/src/moc_GPSFrame.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/GPSFrame.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_GPSFrame.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx_parameters
+
+rqt_rover_gui/src/moc_IMUFrame.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/IMUFrame.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_IMUFrame.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx_parameters
+
+rqt_rover_gui/src/moc_JoystickGripperInterface.cxx: /home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating src/moc_JoystickGripperInterface.cxx"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx_parameters
+
+rqt_rover_gui/ui_rover_gui_plugin.h: /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_rover_gui_plugin.h"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/ui_rover_gui_plugin.h /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.ui
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o: rqt_rover_gui/Version.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/Version.cpp.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/Version.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/Version.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/Version.cpp > CMakeFiles/rqt_rover_gui.dir/Version.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/Version.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/Version.cpp -o CMakeFiles/rqt_rover_gui.dir/Version.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o.requires
@@ -120,6 +190,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o.provides: rqt_rover_gui
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o"
@@ -132,6 +203,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i: cmake_for
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp -o CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp > CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/GazeboSimManager.cpp -o CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o.requires
@@ -143,6 +228,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o.provides: 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o"
@@ -155,6 +241,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i: c
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp -o CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp > CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.cpp -o CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o.requires
@@ -166,6 +266,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o.pr
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o"
@@ -178,6 +279,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i: cmake_for
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp -o CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp > CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/rover_gui_plugin.cpp -o CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o.requires
@@ -189,6 +304,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o.provides: 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o"
@@ -201,6 +317,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp > CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/CameraFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o.requires
@@ -212,6 +342,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o.provides: rqt_r
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o"
@@ -224,6 +355,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp > CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/MapFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o.requires
@@ -235,6 +380,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o.provides: rqt_rove
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o"
@@ -247,6 +393,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp > CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/USFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o.requires
@@ -258,6 +418,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o.provides: rqt_rover
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o"
@@ -270,6 +431,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp > CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/GPSFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o.requires
@@ -281,6 +456,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o.provides: rqt_rove
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/MapData.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o"
@@ -293,6 +469,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/MapData.cpp -o CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/MapData.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/MapData.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/MapData.cpp > CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/MapData.cpp -o CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o.requires
@@ -304,6 +494,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o.provides: rqt_rover
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o"
@@ -316,6 +507,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp > CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/IMUFrame.cpp -o CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o.requires
@@ -327,6 +532,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o.provides: rqt_rove
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o.provides.build: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
+<<<<<<< HEAD
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o: /home/group1/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o"
@@ -339,6 +545,20 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp -o CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s
+=======
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o: /home/group3/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o -c /home/group3/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp > CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/rqt_rover_gui/src/BWTabWidget.cpp -o CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o.requires
@@ -351,6 +571,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o.provides.build:
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o: rqt_rover_gui/src/moc_rover_gui_plugin.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx
@@ -362,6 +583,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i: cmake
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_rover_gui_plugin.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o.requires
@@ -374,6 +608,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o.provid
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o: rqt_rover_gui/src/moc_CameraFrame.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx
@@ -385,6 +620,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i: cmake_forc
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_CameraFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o.requires
@@ -397,6 +645,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o.provides.bu
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o: rqt_rover_gui/src/moc_MapFrame.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx
@@ -408,6 +657,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_MapFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o.requires
@@ -420,6 +682,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o.provides.build
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o: rqt_rover_gui/src/moc_USFrame.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx
@@ -431,6 +694,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_USFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o.requires
@@ -443,6 +719,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o.provides.build:
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o: rqt_rover_gui/src/moc_GPSFrame.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx
@@ -454,6 +731,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_GPSFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o.requires
@@ -466,6 +756,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o.provides.build
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o: rqt_rover_gui/src/moc_IMUFrame.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx
@@ -477,6 +768,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i: cmake_force
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_IMUFrame.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o.requires
@@ -489,6 +793,7 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o.provides.build
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/flags.make
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o: rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o -c /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
@@ -500,6 +805,19 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o -c /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx > CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.i
+
+rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx -o CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s
+>>>>>>> master
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o.requires:
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o.requires
@@ -578,11 +896,21 @@ devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.
 devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
 devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/libimage_transport.so
 devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/libmessage_filters.so
+<<<<<<< HEAD
 devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+=======
+>>>>>>> master
 devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/libclass_loader.so
 devel/lib/librqt_rover_gui.so: /usr/lib/libPocoFoundation.so
 devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libdl.so
 devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/libroslib.so
+<<<<<<< HEAD
+=======
+devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/librospack.so
+devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+>>>>>>> master
 devel/lib/librqt_rover_gui.so: devel/lib/libublox_msgs.so
 devel/lib/librqt_rover_gui.so: /opt/ros/indigo/lib/libroscpp.so
 devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
@@ -603,7 +931,11 @@ devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/librqt_rover_gui.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 devel/lib/librqt_rover_gui.so: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../devel/lib/librqt_rover_gui.so"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rqt_rover_gui.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rqt_rover_gui.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build: devel/lib/librqt_rover_gui.so
@@ -630,7 +962,11 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/requires: rqt_rover_gui/CMakeFiles/rq
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/requires
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -P CMakeFiles/rqt_rover_gui.dir/cmake_clean.cmake
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -P CMakeFiles/rqt_rover_gui.dir/cmake_clean.cmake
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/clean
 
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend: rqt_rover_gui/qrc_resources.cxx
@@ -642,6 +978,10 @@ rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend: rqt_rover_gui/src/moc_GPSFram
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend: rqt_rover_gui/src/moc_IMUFrame.cxx
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend: rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend: rqt_rover_gui/ui_rover_gui_plugin.h
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/rqt_rover_gui /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/rqt_rover_gui /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/depend
 

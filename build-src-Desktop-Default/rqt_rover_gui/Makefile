@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -160,12 +193,20 @@ bond_generate_messages_cpp: rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +215,20 @@ bond_generate_messages_lisp: rqt_rover_gui/CMakeFiles/bond_generate_messages_lis
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -188,12 +237,20 @@ bond_generate_messages_py: rqt_rover_gui/CMakeFiles/bond_generate_messages_py.di
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/build.make rqt_rover_gui/CMakeFiles/bond_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +259,20 @@ nodelet_generate_messages_cpp: rqt_rover_gui/CMakeFiles/nodelet_generate_message
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +281,20 @@ nodelet_generate_messages_lisp: rqt_rover_gui/CMakeFiles/nodelet_generate_messag
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -230,12 +303,20 @@ nodelet_generate_messages_py: rqt_rover_gui/CMakeFiles/nodelet_generate_messages
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build.make rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/rule
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/rule
 
 # Convenience name for target.
@@ -244,7 +325,11 @@ rqt_rover_gui: rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/rule
 
 # fast build rule for target.
 rqt_rover_gui/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build
+>>>>>>> master
 .PHONY : rqt_rover_gui/fast
 
 Version.o: Version.cpp.o
@@ -252,7 +337,11 @@ Version.o: Version.cpp.o
 
 # target to build an object file
 Version.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.o
+>>>>>>> master
 .PHONY : Version.cpp.o
 
 Version.i: Version.cpp.i
@@ -260,7 +349,11 @@ Version.i: Version.cpp.i
 
 # target to preprocess a source file
 Version.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.i
+>>>>>>> master
 .PHONY : Version.cpp.i
 
 Version.s: Version.cpp.s
@@ -268,7 +361,11 @@ Version.s: Version.cpp.s
 
 # target to generate assembly for a file
 Version.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/Version.cpp.s
+>>>>>>> master
 .PHONY : Version.cpp.s
 
 src/BWTabWidget.o: src/BWTabWidget.cpp.o
@@ -276,7 +373,11 @@ src/BWTabWidget.o: src/BWTabWidget.cpp.o
 
 # target to build an object file
 src/BWTabWidget.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.o
+>>>>>>> master
 .PHONY : src/BWTabWidget.cpp.o
 
 src/BWTabWidget.i: src/BWTabWidget.cpp.i
@@ -284,7 +385,11 @@ src/BWTabWidget.i: src/BWTabWidget.cpp.i
 
 # target to preprocess a source file
 src/BWTabWidget.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.i
+>>>>>>> master
 .PHONY : src/BWTabWidget.cpp.i
 
 src/BWTabWidget.s: src/BWTabWidget.cpp.s
@@ -292,7 +397,11 @@ src/BWTabWidget.s: src/BWTabWidget.cpp.s
 
 # target to generate assembly for a file
 src/BWTabWidget.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/BWTabWidget.cpp.s
+>>>>>>> master
 .PHONY : src/BWTabWidget.cpp.s
 
 src/CameraFrame.o: src/CameraFrame.cpp.o
@@ -300,7 +409,11 @@ src/CameraFrame.o: src/CameraFrame.cpp.o
 
 # target to build an object file
 src/CameraFrame.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.o
+>>>>>>> master
 .PHONY : src/CameraFrame.cpp.o
 
 src/CameraFrame.i: src/CameraFrame.cpp.i
@@ -308,7 +421,11 @@ src/CameraFrame.i: src/CameraFrame.cpp.i
 
 # target to preprocess a source file
 src/CameraFrame.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.i
+>>>>>>> master
 .PHONY : src/CameraFrame.cpp.i
 
 src/CameraFrame.s: src/CameraFrame.cpp.s
@@ -316,7 +433,11 @@ src/CameraFrame.s: src/CameraFrame.cpp.s
 
 # target to generate assembly for a file
 src/CameraFrame.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/CameraFrame.cpp.s
+>>>>>>> master
 .PHONY : src/CameraFrame.cpp.s
 
 src/GPSFrame.o: src/GPSFrame.cpp.o
@@ -324,7 +445,11 @@ src/GPSFrame.o: src/GPSFrame.cpp.o
 
 # target to build an object file
 src/GPSFrame.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.o
+>>>>>>> master
 .PHONY : src/GPSFrame.cpp.o
 
 src/GPSFrame.i: src/GPSFrame.cpp.i
@@ -332,7 +457,11 @@ src/GPSFrame.i: src/GPSFrame.cpp.i
 
 # target to preprocess a source file
 src/GPSFrame.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.i
+>>>>>>> master
 .PHONY : src/GPSFrame.cpp.i
 
 src/GPSFrame.s: src/GPSFrame.cpp.s
@@ -340,7 +469,11 @@ src/GPSFrame.s: src/GPSFrame.cpp.s
 
 # target to generate assembly for a file
 src/GPSFrame.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GPSFrame.cpp.s
+>>>>>>> master
 .PHONY : src/GPSFrame.cpp.s
 
 src/GazeboSimManager.o: src/GazeboSimManager.cpp.o
@@ -348,7 +481,11 @@ src/GazeboSimManager.o: src/GazeboSimManager.cpp.o
 
 # target to build an object file
 src/GazeboSimManager.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.o
+>>>>>>> master
 .PHONY : src/GazeboSimManager.cpp.o
 
 src/GazeboSimManager.i: src/GazeboSimManager.cpp.i
@@ -356,7 +493,11 @@ src/GazeboSimManager.i: src/GazeboSimManager.cpp.i
 
 # target to preprocess a source file
 src/GazeboSimManager.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.i
+>>>>>>> master
 .PHONY : src/GazeboSimManager.cpp.i
 
 src/GazeboSimManager.s: src/GazeboSimManager.cpp.s
@@ -364,7 +505,11 @@ src/GazeboSimManager.s: src/GazeboSimManager.cpp.s
 
 # target to generate assembly for a file
 src/GazeboSimManager.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/GazeboSimManager.cpp.s
+>>>>>>> master
 .PHONY : src/GazeboSimManager.cpp.s
 
 src/IMUFrame.o: src/IMUFrame.cpp.o
@@ -372,7 +517,11 @@ src/IMUFrame.o: src/IMUFrame.cpp.o
 
 # target to build an object file
 src/IMUFrame.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.o
+>>>>>>> master
 .PHONY : src/IMUFrame.cpp.o
 
 src/IMUFrame.i: src/IMUFrame.cpp.i
@@ -380,7 +529,11 @@ src/IMUFrame.i: src/IMUFrame.cpp.i
 
 # target to preprocess a source file
 src/IMUFrame.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.i
+>>>>>>> master
 .PHONY : src/IMUFrame.cpp.i
 
 src/IMUFrame.s: src/IMUFrame.cpp.s
@@ -388,7 +541,11 @@ src/IMUFrame.s: src/IMUFrame.cpp.s
 
 # target to generate assembly for a file
 src/IMUFrame.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/IMUFrame.cpp.s
+>>>>>>> master
 .PHONY : src/IMUFrame.cpp.s
 
 src/JoystickGripperInterface.o: src/JoystickGripperInterface.cpp.o
@@ -396,7 +553,11 @@ src/JoystickGripperInterface.o: src/JoystickGripperInterface.cpp.o
 
 # target to build an object file
 src/JoystickGripperInterface.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.o
+>>>>>>> master
 .PHONY : src/JoystickGripperInterface.cpp.o
 
 src/JoystickGripperInterface.i: src/JoystickGripperInterface.cpp.i
@@ -404,7 +565,11 @@ src/JoystickGripperInterface.i: src/JoystickGripperInterface.cpp.i
 
 # target to preprocess a source file
 src/JoystickGripperInterface.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.i
+>>>>>>> master
 .PHONY : src/JoystickGripperInterface.cpp.i
 
 src/JoystickGripperInterface.s: src/JoystickGripperInterface.cpp.s
@@ -412,7 +577,11 @@ src/JoystickGripperInterface.s: src/JoystickGripperInterface.cpp.s
 
 # target to generate assembly for a file
 src/JoystickGripperInterface.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/JoystickGripperInterface.cpp.s
+>>>>>>> master
 .PHONY : src/JoystickGripperInterface.cpp.s
 
 src/MapData.o: src/MapData.cpp.o
@@ -420,7 +589,11 @@ src/MapData.o: src/MapData.cpp.o
 
 # target to build an object file
 src/MapData.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.o
+>>>>>>> master
 .PHONY : src/MapData.cpp.o
 
 src/MapData.i: src/MapData.cpp.i
@@ -428,7 +601,11 @@ src/MapData.i: src/MapData.cpp.i
 
 # target to preprocess a source file
 src/MapData.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.i
+>>>>>>> master
 .PHONY : src/MapData.cpp.i
 
 src/MapData.s: src/MapData.cpp.s
@@ -436,7 +613,11 @@ src/MapData.s: src/MapData.cpp.s
 
 # target to generate assembly for a file
 src/MapData.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapData.cpp.s
+>>>>>>> master
 .PHONY : src/MapData.cpp.s
 
 src/MapFrame.o: src/MapFrame.cpp.o
@@ -444,7 +625,11 @@ src/MapFrame.o: src/MapFrame.cpp.o
 
 # target to build an object file
 src/MapFrame.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.o
+>>>>>>> master
 .PHONY : src/MapFrame.cpp.o
 
 src/MapFrame.i: src/MapFrame.cpp.i
@@ -452,7 +637,11 @@ src/MapFrame.i: src/MapFrame.cpp.i
 
 # target to preprocess a source file
 src/MapFrame.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.i
+>>>>>>> master
 .PHONY : src/MapFrame.cpp.i
 
 src/MapFrame.s: src/MapFrame.cpp.s
@@ -460,7 +649,11 @@ src/MapFrame.s: src/MapFrame.cpp.s
 
 # target to generate assembly for a file
 src/MapFrame.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/MapFrame.cpp.s
+>>>>>>> master
 .PHONY : src/MapFrame.cpp.s
 
 src/USFrame.o: src/USFrame.cpp.o
@@ -468,7 +661,11 @@ src/USFrame.o: src/USFrame.cpp.o
 
 # target to build an object file
 src/USFrame.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.o
+>>>>>>> master
 .PHONY : src/USFrame.cpp.o
 
 src/USFrame.i: src/USFrame.cpp.i
@@ -476,7 +673,11 @@ src/USFrame.i: src/USFrame.cpp.i
 
 # target to preprocess a source file
 src/USFrame.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.i
+>>>>>>> master
 .PHONY : src/USFrame.cpp.i
 
 src/USFrame.s: src/USFrame.cpp.s
@@ -484,7 +685,11 @@ src/USFrame.s: src/USFrame.cpp.s
 
 # target to generate assembly for a file
 src/USFrame.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/USFrame.cpp.s
+>>>>>>> master
 .PHONY : src/USFrame.cpp.s
 
 src/moc_CameraFrame.o: src/moc_CameraFrame.cxx.o
@@ -492,7 +697,11 @@ src/moc_CameraFrame.o: src/moc_CameraFrame.cxx.o
 
 # target to build an object file
 src/moc_CameraFrame.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.o
+>>>>>>> master
 .PHONY : src/moc_CameraFrame.cxx.o
 
 src/moc_CameraFrame.i: src/moc_CameraFrame.cxx.i
@@ -500,7 +709,11 @@ src/moc_CameraFrame.i: src/moc_CameraFrame.cxx.i
 
 # target to preprocess a source file
 src/moc_CameraFrame.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.i
+>>>>>>> master
 .PHONY : src/moc_CameraFrame.cxx.i
 
 src/moc_CameraFrame.s: src/moc_CameraFrame.cxx.s
@@ -508,7 +721,11 @@ src/moc_CameraFrame.s: src/moc_CameraFrame.cxx.s
 
 # target to generate assembly for a file
 src/moc_CameraFrame.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_CameraFrame.cxx.s
+>>>>>>> master
 .PHONY : src/moc_CameraFrame.cxx.s
 
 src/moc_GPSFrame.o: src/moc_GPSFrame.cxx.o
@@ -516,7 +733,11 @@ src/moc_GPSFrame.o: src/moc_GPSFrame.cxx.o
 
 # target to build an object file
 src/moc_GPSFrame.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.o
+>>>>>>> master
 .PHONY : src/moc_GPSFrame.cxx.o
 
 src/moc_GPSFrame.i: src/moc_GPSFrame.cxx.i
@@ -524,7 +745,11 @@ src/moc_GPSFrame.i: src/moc_GPSFrame.cxx.i
 
 # target to preprocess a source file
 src/moc_GPSFrame.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.i
+>>>>>>> master
 .PHONY : src/moc_GPSFrame.cxx.i
 
 src/moc_GPSFrame.s: src/moc_GPSFrame.cxx.s
@@ -532,7 +757,11 @@ src/moc_GPSFrame.s: src/moc_GPSFrame.cxx.s
 
 # target to generate assembly for a file
 src/moc_GPSFrame.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_GPSFrame.cxx.s
+>>>>>>> master
 .PHONY : src/moc_GPSFrame.cxx.s
 
 src/moc_IMUFrame.o: src/moc_IMUFrame.cxx.o
@@ -540,7 +769,11 @@ src/moc_IMUFrame.o: src/moc_IMUFrame.cxx.o
 
 # target to build an object file
 src/moc_IMUFrame.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.o
+>>>>>>> master
 .PHONY : src/moc_IMUFrame.cxx.o
 
 src/moc_IMUFrame.i: src/moc_IMUFrame.cxx.i
@@ -548,7 +781,11 @@ src/moc_IMUFrame.i: src/moc_IMUFrame.cxx.i
 
 # target to preprocess a source file
 src/moc_IMUFrame.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.i
+>>>>>>> master
 .PHONY : src/moc_IMUFrame.cxx.i
 
 src/moc_IMUFrame.s: src/moc_IMUFrame.cxx.s
@@ -556,7 +793,11 @@ src/moc_IMUFrame.s: src/moc_IMUFrame.cxx.s
 
 # target to generate assembly for a file
 src/moc_IMUFrame.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_IMUFrame.cxx.s
+>>>>>>> master
 .PHONY : src/moc_IMUFrame.cxx.s
 
 src/moc_JoystickGripperInterface.o: src/moc_JoystickGripperInterface.cxx.o
@@ -564,7 +805,11 @@ src/moc_JoystickGripperInterface.o: src/moc_JoystickGripperInterface.cxx.o
 
 # target to build an object file
 src/moc_JoystickGripperInterface.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.o
+>>>>>>> master
 .PHONY : src/moc_JoystickGripperInterface.cxx.o
 
 src/moc_JoystickGripperInterface.i: src/moc_JoystickGripperInterface.cxx.i
@@ -572,7 +817,11 @@ src/moc_JoystickGripperInterface.i: src/moc_JoystickGripperInterface.cxx.i
 
 # target to preprocess a source file
 src/moc_JoystickGripperInterface.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.i
+>>>>>>> master
 .PHONY : src/moc_JoystickGripperInterface.cxx.i
 
 src/moc_JoystickGripperInterface.s: src/moc_JoystickGripperInterface.cxx.s
@@ -580,7 +829,11 @@ src/moc_JoystickGripperInterface.s: src/moc_JoystickGripperInterface.cxx.s
 
 # target to generate assembly for a file
 src/moc_JoystickGripperInterface.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_JoystickGripperInterface.cxx.s
+>>>>>>> master
 .PHONY : src/moc_JoystickGripperInterface.cxx.s
 
 src/moc_MapFrame.o: src/moc_MapFrame.cxx.o
@@ -588,7 +841,11 @@ src/moc_MapFrame.o: src/moc_MapFrame.cxx.o
 
 # target to build an object file
 src/moc_MapFrame.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.o
+>>>>>>> master
 .PHONY : src/moc_MapFrame.cxx.o
 
 src/moc_MapFrame.i: src/moc_MapFrame.cxx.i
@@ -596,7 +853,11 @@ src/moc_MapFrame.i: src/moc_MapFrame.cxx.i
 
 # target to preprocess a source file
 src/moc_MapFrame.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.i
+>>>>>>> master
 .PHONY : src/moc_MapFrame.cxx.i
 
 src/moc_MapFrame.s: src/moc_MapFrame.cxx.s
@@ -604,7 +865,11 @@ src/moc_MapFrame.s: src/moc_MapFrame.cxx.s
 
 # target to generate assembly for a file
 src/moc_MapFrame.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_MapFrame.cxx.s
+>>>>>>> master
 .PHONY : src/moc_MapFrame.cxx.s
 
 src/moc_USFrame.o: src/moc_USFrame.cxx.o
@@ -612,7 +877,11 @@ src/moc_USFrame.o: src/moc_USFrame.cxx.o
 
 # target to build an object file
 src/moc_USFrame.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.o
+>>>>>>> master
 .PHONY : src/moc_USFrame.cxx.o
 
 src/moc_USFrame.i: src/moc_USFrame.cxx.i
@@ -620,7 +889,11 @@ src/moc_USFrame.i: src/moc_USFrame.cxx.i
 
 # target to preprocess a source file
 src/moc_USFrame.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.i
+>>>>>>> master
 .PHONY : src/moc_USFrame.cxx.i
 
 src/moc_USFrame.s: src/moc_USFrame.cxx.s
@@ -628,7 +901,11 @@ src/moc_USFrame.s: src/moc_USFrame.cxx.s
 
 # target to generate assembly for a file
 src/moc_USFrame.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_USFrame.cxx.s
+>>>>>>> master
 .PHONY : src/moc_USFrame.cxx.s
 
 src/moc_rover_gui_plugin.o: src/moc_rover_gui_plugin.cxx.o
@@ -636,7 +913,11 @@ src/moc_rover_gui_plugin.o: src/moc_rover_gui_plugin.cxx.o
 
 # target to build an object file
 src/moc_rover_gui_plugin.cxx.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.o
+>>>>>>> master
 .PHONY : src/moc_rover_gui_plugin.cxx.o
 
 src/moc_rover_gui_plugin.i: src/moc_rover_gui_plugin.cxx.i
@@ -644,7 +925,11 @@ src/moc_rover_gui_plugin.i: src/moc_rover_gui_plugin.cxx.i
 
 # target to preprocess a source file
 src/moc_rover_gui_plugin.cxx.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.i
+>>>>>>> master
 .PHONY : src/moc_rover_gui_plugin.cxx.i
 
 src/moc_rover_gui_plugin.s: src/moc_rover_gui_plugin.cxx.s
@@ -652,7 +937,11 @@ src/moc_rover_gui_plugin.s: src/moc_rover_gui_plugin.cxx.s
 
 # target to generate assembly for a file
 src/moc_rover_gui_plugin.cxx.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/moc_rover_gui_plugin.cxx.s
+>>>>>>> master
 .PHONY : src/moc_rover_gui_plugin.cxx.s
 
 src/rover_gui_plugin.o: src/rover_gui_plugin.cpp.o
@@ -660,7 +949,11 @@ src/rover_gui_plugin.o: src/rover_gui_plugin.cpp.o
 
 # target to build an object file
 src/rover_gui_plugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.o
+>>>>>>> master
 .PHONY : src/rover_gui_plugin.cpp.o
 
 src/rover_gui_plugin.i: src/rover_gui_plugin.cpp.i
@@ -668,7 +961,11 @@ src/rover_gui_plugin.i: src/rover_gui_plugin.cpp.i
 
 # target to preprocess a source file
 src/rover_gui_plugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.i
+>>>>>>> master
 .PHONY : src/rover_gui_plugin.cpp.i
 
 src/rover_gui_plugin.s: src/rover_gui_plugin.cpp.s
@@ -676,7 +973,11 @@ src/rover_gui_plugin.s: src/rover_gui_plugin.cpp.s
 
 # target to generate assembly for a file
 src/rover_gui_plugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/build.make rqt_rover_gui/CMakeFiles/rqt_rover_gui.dir/src/rover_gui_plugin.cpp.s
+>>>>>>> master
 .PHONY : src/rover_gui_plugin.cpp.s
 
 # Help Target
@@ -764,6 +1065,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

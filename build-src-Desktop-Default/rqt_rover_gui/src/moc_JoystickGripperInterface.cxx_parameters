@@ -7,5 +7,10 @@
 -DROS_PACKAGE_NAME="rqt_rover_gui"
 -DROSCONSOLE_BACKEND_LOG4CXX
 -o
+<<<<<<< HEAD
 /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
 /home/group1/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.h
+=======
+/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/src/moc_JoystickGripperInterface.cxx
+/home/group3/rover_workspace/src/rqt_rover_gui/src/JoystickGripperInterface.h
+>>>>>>> master

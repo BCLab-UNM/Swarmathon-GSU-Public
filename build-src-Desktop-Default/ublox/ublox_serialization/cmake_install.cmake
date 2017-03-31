@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src/ublox/ublox_serialization
+=======
+# Install script for directory: /home/group3/rover_workspace/src/ublox/ublox_serialization
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,21 +37,38 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serialization.pc")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serialization.pc")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_serialization/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serializationConfig.cmake"
     "/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serializationConfig-version.cmake"
+=======
+    "/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serializationConfig.cmake"
+    "/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/catkin_generated/installspace/ublox_serializationConfig-version.cmake"
+>>>>>>> master
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_serialization" TYPE FILE FILES "/home/group1/rover_workspace/src/ublox/ublox_serialization/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/group1/rover_workspace/src/ublox/ublox_serialization/include/" REGEX "/\\.svn$" EXCLUDE)
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_serialization" TYPE FILE FILES "/home/group3/rover_workspace/src/ublox/ublox_serialization/package.xml")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/group3/rover_workspace/src/ublox/ublox_serialization/include/" REGEX "/\\.svn$" EXCLUDE)
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

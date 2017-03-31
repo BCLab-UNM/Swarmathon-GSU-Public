@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Utility rule file for ublox_msgs_genlisp.
 
@@ -56,10 +63,18 @@ ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/build: ublox_msgs_genlisp
 .PHONY : ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/build
 
 ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ublox_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/clean
 
 ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/ublox/ublox_msgs /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ublox_msgs_genlisp.dir/cmake_clean.cmake
+.PHONY : ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/clean
+
+ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/ublox/ublox_msgs /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : ublox/ublox_msgs/CMakeFiles/ublox_msgs_genlisp.dir/depend
 

@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 abridge/CMakeFiles/abridge.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/abridge.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/abridge.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/abridge.dir/rule
 
 # Convenience name for target.
@@ -160,12 +193,20 @@ abridge: abridge/CMakeFiles/abridge.dir/rule
 
 # fast build rule for target.
 abridge/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/build
+>>>>>>> master
 .PHONY : abridge/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +215,20 @@ actionlib_generate_messages_cpp: abridge/CMakeFiles/actionlib_generate_messages_
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +237,20 @@ actionlib_generate_messages_lisp: abridge/CMakeFiles/actionlib_generate_messages
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -202,12 +259,20 @@ actionlib_generate_messages_py: abridge/CMakeFiles/actionlib_generate_messages_p
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_py.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_generate_messages_py.dir/build.make abridge/CMakeFiles/actionlib_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +281,20 @@ actionlib_msgs_generate_messages_cpp: abridge/CMakeFiles/actionlib_msgs_generate
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +303,20 @@ actionlib_msgs_generate_messages_lisp: abridge/CMakeFiles/actionlib_msgs_generat
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -244,12 +325,20 @@ actionlib_msgs_generate_messages_py: abridge/CMakeFiles/actionlib_msgs_generate_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -258,12 +347,20 @@ nav_msgs_generate_messages_cpp: abridge/CMakeFiles/nav_msgs_generate_messages_cp
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +369,20 @@ nav_msgs_generate_messages_lisp: abridge/CMakeFiles/nav_msgs_generate_messages_l
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -286,12 +391,20 @@ nav_msgs_generate_messages_py: abridge/CMakeFiles/nav_msgs_generate_messages_py.
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -300,12 +413,20 @@ tf2_msgs_generate_messages_cpp: abridge/CMakeFiles/tf2_msgs_generate_messages_cp
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +435,20 @@ tf2_msgs_generate_messages_lisp: abridge/CMakeFiles/tf2_msgs_generate_messages_l
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -328,12 +457,20 @@ tf2_msgs_generate_messages_py: abridge/CMakeFiles/tf2_msgs_generate_messages_py.
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make abridge/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_cpp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_cpp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +479,20 @@ tf_generate_messages_cpp: abridge/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_cpp.dir/build.make abridge/CMakeFiles/tf_generate_messages_cpp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_cpp.dir/build.make abridge/CMakeFiles/tf_generate_messages_cpp.dir/build
+>>>>>>> master
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_lisp.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_lisp.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -356,12 +501,20 @@ tf_generate_messages_lisp: abridge/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_lisp.dir/build.make abridge/CMakeFiles/tf_generate_messages_lisp.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_lisp.dir/build.make abridge/CMakeFiles/tf_generate_messages_lisp.dir/build
+>>>>>>> master
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 abridge/CMakeFiles/tf_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_py.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 abridge/CMakeFiles/tf_generate_messages_py.dir/rule
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -370,7 +523,11 @@ tf_generate_messages_py: abridge/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_py.dir/build.make abridge/CMakeFiles/tf_generate_messages_py.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/tf_generate_messages_py.dir/build.make abridge/CMakeFiles/tf_generate_messages_py.dir/build
+>>>>>>> master
 .PHONY : tf_generate_messages_py/fast
 
 src/abridge.o: src/abridge.cpp.o
@@ -378,7 +535,11 @@ src/abridge.o: src/abridge.cpp.o
 
 # target to build an object file
 src/abridge.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o
+>>>>>>> master
 .PHONY : src/abridge.cpp.o
 
 src/abridge.i: src/abridge.cpp.i
@@ -386,7 +547,11 @@ src/abridge.i: src/abridge.cpp.i
 
 # target to preprocess a source file
 src/abridge.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.i
+>>>>>>> master
 .PHONY : src/abridge.cpp.i
 
 src/abridge.s: src/abridge.cpp.s
@@ -394,7 +559,11 @@ src/abridge.s: src/abridge.cpp.s
 
 # target to generate assembly for a file
 src/abridge.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/abridge.cpp.s
+>>>>>>> master
 .PHONY : src/abridge.cpp.s
 
 src/usbSerial.o: src/usbSerial.cpp.o
@@ -402,7 +571,11 @@ src/usbSerial.o: src/usbSerial.cpp.o
 
 # target to build an object file
 src/usbSerial.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o
+>>>>>>> master
 .PHONY : src/usbSerial.cpp.o
 
 src/usbSerial.i: src/usbSerial.cpp.i
@@ -410,7 +583,11 @@ src/usbSerial.i: src/usbSerial.cpp.i
 
 # target to preprocess a source file
 src/usbSerial.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.i
+>>>>>>> master
 .PHONY : src/usbSerial.cpp.i
 
 src/usbSerial.s: src/usbSerial.cpp.s
@@ -418,7 +595,11 @@ src/usbSerial.s: src/usbSerial.cpp.s
 
 # target to generate assembly for a file
 src/usbSerial.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f abridge/CMakeFiles/abridge.dir/build.make abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.s
+>>>>>>> master
 .PHONY : src/usbSerial.cpp.s
 
 # Help Target
@@ -467,6 +648,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

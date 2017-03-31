@@ -4,9 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/gazebo_plugins/src/GripperPlugin/GripperManager.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.o"
   "/home/group1/rover_workspace/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.o"
   "/home/group1/rover_workspace/src/gazebo_plugins/src/GripperPlugin/PIDController.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.o"
+=======
+  "/home/group3/rover_workspace/src/gazebo_plugins/src/GripperPlugin/GripperManager.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.o"
+  "/home/group3/rover_workspace/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.o"
+  "/home/group3/rover_workspace/src/gazebo_plugins/src/GripperPlugin/PIDController.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.o"
+>>>>>>> master
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +32,13 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/opt/ros/indigo/include"
   "/usr/include/gazebo-2.2"
   "/usr/include/sdformat-1.4"
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/gazebo_plugins/src"
   "/home/group1/rover_workspace/src/gazebo_plugins/src/GripperPlugin"
+=======
+  "/home/group3/rover_workspace/src/gazebo_plugins/src"
+  "/home/group3/rover_workspace/src/gazebo_plugins/src/GripperPlugin"
+>>>>>>> master
   "gazebo_plugins"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

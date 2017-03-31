@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -56,10 +63,18 @@ obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: ros
 .PHONY : obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/obstacle_detection && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/obstacle_detection /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/obstacle_detection /home/group1/rover_workspace/build-src-Desktop-Default/obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/obstacle_detection && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/obstacle_detection /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/obstacle_detection /home/group3/rover_workspace/build-src-Desktop-Default/obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : obstacle_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

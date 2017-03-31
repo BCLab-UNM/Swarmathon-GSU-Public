@@ -4,7 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/obstacle_detection/src/obstacle.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/obstacle_detection/CMakeFiles/obstacle.dir/src/obstacle.cpp.o"
+=======
+  "/home/group3/rover_workspace/src/obstacle_detection/src/obstacle.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/obstacle_detection/CMakeFiles/obstacle.dir/src/obstacle.cpp.o"
+>>>>>>> master
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

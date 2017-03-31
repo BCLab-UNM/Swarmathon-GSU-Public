@@ -4,8 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/abridge/src/abridge.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o"
   "/home/group1/rover_workspace/src/abridge/src/usbSerial.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o"
+=======
+  "/home/group3/rover_workspace/src/abridge/src/abridge.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o"
+  "/home/group3/rover_workspace/src/abridge/src/usbSerial.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o"
+>>>>>>> master
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +27,11 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/abridge/include"
+=======
+  "/home/group3/rover_workspace/src/abridge/include"
+>>>>>>> master
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

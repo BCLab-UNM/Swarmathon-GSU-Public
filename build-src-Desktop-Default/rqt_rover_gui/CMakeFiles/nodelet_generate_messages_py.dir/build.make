@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Utility rule file for nodelet_generate_messages_py.
 
@@ -56,10 +63,18 @@ rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build: nodelet_generat
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/build
 
 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/clean
 
 rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/rqt_rover_gui /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui /home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/clean
+
+rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/rqt_rover_gui /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui /home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : rqt_rover_gui/CMakeFiles/nodelet_generate_messages_py.dir/depend
 

@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include diagnostics/CMakeFiles/diagnostics.dir/depend.make
@@ -50,6 +57,7 @@ include diagnostics/CMakeFiles/diagnostics.dir/progress.make
 include diagnostics/CMakeFiles/diagnostics.dir/flags.make
 
 diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o: diagnostics/CMakeFiles/diagnostics.dir/flags.make
+<<<<<<< HEAD
 diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o: /home/group1/rover_workspace/src/diagnostics/src/driver.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o"
@@ -62,6 +70,20 @@ diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.i: cmake_force
 diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/driver.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/diagnostics/src/driver.cpp -o CMakeFiles/diagnostics.dir/src/driver.cpp.s
+=======
+diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o: /home/group3/rover_workspace/src/diagnostics/src/driver.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/diagnostics.dir/src/driver.cpp.o -c /home/group3/rover_workspace/src/diagnostics/src/driver.cpp
+
+diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diagnostics.dir/src/driver.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/diagnostics/src/driver.cpp > CMakeFiles/diagnostics.dir/src/driver.cpp.i
+
+diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/driver.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/diagnostics/src/driver.cpp -o CMakeFiles/diagnostics.dir/src/driver.cpp.s
+>>>>>>> master
 
 diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o.requires:
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o.requires
@@ -73,6 +95,7 @@ diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o.provides: diagnostics/CM
 diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o.provides.build: diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o
 
 diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o: diagnostics/CMakeFiles/diagnostics.dir/flags.make
+<<<<<<< HEAD
 diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o: /home/group1/rover_workspace/src/diagnostics/src/Diagnostics.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o"
@@ -85,6 +108,20 @@ diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i: cmake_force
 diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/diagnostics/src/Diagnostics.cpp -o CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s
+=======
+diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o: /home/group3/rover_workspace/src/diagnostics/src/Diagnostics.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o -c /home/group3/rover_workspace/src/diagnostics/src/Diagnostics.cpp
+
+diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/diagnostics/src/Diagnostics.cpp > CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.i
+
+diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/diagnostics/src/Diagnostics.cpp -o CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.s
+>>>>>>> master
 
 diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o.requires:
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o.requires
@@ -96,6 +133,7 @@ diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o.provides: diagnosti
 diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o.provides.build: diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o
 
 diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o: diagnostics/CMakeFiles/diagnostics.dir/flags.make
+<<<<<<< HEAD
 diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o: /home/group1/rover_workspace/src/diagnostics/src/WirelessDiags.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o"
@@ -108,6 +146,20 @@ diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i: cmake_force
 diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/diagnostics/src/WirelessDiags.cpp -o CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s
+=======
+diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o: /home/group3/rover_workspace/src/diagnostics/src/WirelessDiags.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o -c /home/group3/rover_workspace/src/diagnostics/src/WirelessDiags.cpp
+
+diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/diagnostics/src/WirelessDiags.cpp > CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.i
+
+diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/diagnostics/src/WirelessDiags.cpp -o CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.s
+>>>>>>> master
 
 diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o.requires:
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o.requires
@@ -133,8 +185,16 @@ devel/lib/diagnostics/diagnostics: diagnostics/CMakeFiles/diagnostics.dir/src/Wi
 devel/lib/diagnostics/diagnostics: diagnostics/CMakeFiles/diagnostics.dir/build.make
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libgazebo_ros_api_plugin.so
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libgazebo_ros_paths_plugin.so
+<<<<<<< HEAD
 devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libroslib.so
+=======
+devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libroslib.so
+devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/librospack.so
+devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+>>>>>>> master
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libtf.so
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libtf2_ros.so
 devel/lib/diagnostics/diagnostics: /opt/ros/indigo/lib/libactionlib.so
@@ -184,7 +244,11 @@ devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 devel/lib/diagnostics/diagnostics: /usr/lib/x86_64-linux-gnu/libsdformat.so
 devel/lib/diagnostics/diagnostics: diagnostics/CMakeFiles/diagnostics.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../devel/lib/diagnostics/diagnostics"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diagnostics.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diagnostics.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 diagnostics/CMakeFiles/diagnostics.dir/build: devel/lib/diagnostics/diagnostics
@@ -196,10 +260,18 @@ diagnostics/CMakeFiles/diagnostics.dir/requires: diagnostics/CMakeFiles/diagnost
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/requires
 
 diagnostics/CMakeFiles/diagnostics.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics && $(CMAKE_COMMAND) -P CMakeFiles/diagnostics.dir/cmake_clean.cmake
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/clean
 
 diagnostics/CMakeFiles/diagnostics.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/diagnostics /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics /home/group1/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics && $(CMAKE_COMMAND) -P CMakeFiles/diagnostics.dir/cmake_clean.cmake
+.PHONY : diagnostics/CMakeFiles/diagnostics.dir/clean
+
+diagnostics/CMakeFiles/diagnostics.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/diagnostics /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics /home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : diagnostics/CMakeFiles/diagnostics.dir/depend
 

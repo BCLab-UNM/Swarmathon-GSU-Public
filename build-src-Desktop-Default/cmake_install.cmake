@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src
+=======
+# Install script for directory: /home/group3/rover_workspace/src
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +55,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/_setup_util.py")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/_setup_util.py")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -63,7 +71,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/env.sh")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/env.sh")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -75,7 +87,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.bash")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.bash")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -87,7 +103,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.sh")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.sh")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -99,7 +119,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.zsh")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/setup.zsh")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -111,11 +135,16 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+<<<<<<< HEAD
 FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/.rosinstall")
+=======
+FILE(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/catkin_generated/installspace/.rosinstall")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/gtest/cmake_install.cmake")
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox/cmake_install.cmake")
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/obstacle_detection/cmake_install.cmake")
@@ -128,6 +157,20 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/cmake_install.cmake")
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/cmake_install.cmake")
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_gps/cmake_install.cmake")
+=======
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/gtest/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/obstacle_detection/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/sbridge/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/abridge/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/mobility/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_serialization/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/cmake_install.cmake")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_gps/cmake_install.cmake")
+>>>>>>> master
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -137,7 +180,13 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
+<<<<<<< HEAD
 FILE(WRITE "/home/group1/rover_workspace/build-src-Desktop-Default/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
   FILE(APPEND "/home/group1/rover_workspace/build-src-Desktop-Default/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+=======
+FILE(WRITE "/home/group3/rover_workspace/build-src-Desktop-Default/${CMAKE_INSTALL_MANIFEST}" "")
+FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
+  FILE(APPEND "/home/group3/rover_workspace/build-src-Desktop-Default/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+>>>>>>> master
 ENDFOREACH(file)

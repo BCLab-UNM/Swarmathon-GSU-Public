@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/rule
+>>>>>>> master
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/rule
 
 # Convenience name for target.
@@ -160,12 +193,20 @@ gazebo_plugins: gazebo_plugins/CMakeFiles/gazebo_plugins.dir/rule
 
 # fast build rule for target.
 gazebo_plugins/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build
+>>>>>>> master
 .PHONY : gazebo_plugins/fast
 
 # Convenience name for target.
 gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/rule
+>>>>>>> master
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/rule
 
 # Convenience name for target.
@@ -174,12 +215,20 @@ gazebo_plugins_gripper: gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/rul
 
 # fast build rule for target.
 gazebo_plugins_gripper/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build
+>>>>>>> master
 .PHONY : gazebo_plugins_gripper/fast
 
 # Convenience name for target.
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/rule
+>>>>>>> master
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/rule
 
 # Convenience name for target.
@@ -188,7 +237,11 @@ gazebo_plugins_score: gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/rule
 
 # fast build rule for target.
 gazebo_plugins_score/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build
+>>>>>>> master
 .PHONY : gazebo_plugins_score/fast
 
 src/GripperPlugin/GripperManager.o: src/GripperPlugin/GripperManager.cpp.o
@@ -196,7 +249,11 @@ src/GripperPlugin/GripperManager.o: src/GripperPlugin/GripperManager.cpp.o
 
 # target to build an object file
 src/GripperPlugin/GripperManager.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.o
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperManager.cpp.o
 
 src/GripperPlugin/GripperManager.i: src/GripperPlugin/GripperManager.cpp.i
@@ -204,7 +261,11 @@ src/GripperPlugin/GripperManager.i: src/GripperPlugin/GripperManager.cpp.i
 
 # target to preprocess a source file
 src/GripperPlugin/GripperManager.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.i
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperManager.cpp.i
 
 src/GripperPlugin/GripperManager.s: src/GripperPlugin/GripperManager.cpp.s
@@ -212,7 +273,11 @@ src/GripperPlugin/GripperManager.s: src/GripperPlugin/GripperManager.cpp.s
 
 # target to generate assembly for a file
 src/GripperPlugin/GripperManager.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperManager.cpp.s
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperManager.cpp.s
 
 src/GripperPlugin/GripperPlugin.o: src/GripperPlugin/GripperPlugin.cpp.o
@@ -220,7 +285,11 @@ src/GripperPlugin/GripperPlugin.o: src/GripperPlugin/GripperPlugin.cpp.o
 
 # target to build an object file
 src/GripperPlugin/GripperPlugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.o
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperPlugin.cpp.o
 
 src/GripperPlugin/GripperPlugin.i: src/GripperPlugin/GripperPlugin.cpp.i
@@ -228,7 +297,11 @@ src/GripperPlugin/GripperPlugin.i: src/GripperPlugin/GripperPlugin.cpp.i
 
 # target to preprocess a source file
 src/GripperPlugin/GripperPlugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.i
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperPlugin.cpp.i
 
 src/GripperPlugin/GripperPlugin.s: src/GripperPlugin/GripperPlugin.cpp.s
@@ -236,7 +309,11 @@ src/GripperPlugin/GripperPlugin.s: src/GripperPlugin/GripperPlugin.cpp.s
 
 # target to generate assembly for a file
 src/GripperPlugin/GripperPlugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.s
+>>>>>>> master
 .PHONY : src/GripperPlugin/GripperPlugin.cpp.s
 
 src/GripperPlugin/PIDController.o: src/GripperPlugin/PIDController.cpp.o
@@ -244,7 +321,11 @@ src/GripperPlugin/PIDController.o: src/GripperPlugin/PIDController.cpp.o
 
 # target to build an object file
 src/GripperPlugin/PIDController.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.o
+>>>>>>> master
 .PHONY : src/GripperPlugin/PIDController.cpp.o
 
 src/GripperPlugin/PIDController.i: src/GripperPlugin/PIDController.cpp.i
@@ -252,7 +333,11 @@ src/GripperPlugin/PIDController.i: src/GripperPlugin/PIDController.cpp.i
 
 # target to preprocess a source file
 src/GripperPlugin/PIDController.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.i
+>>>>>>> master
 .PHONY : src/GripperPlugin/PIDController.cpp.i
 
 src/GripperPlugin/PIDController.s: src/GripperPlugin/PIDController.cpp.s
@@ -260,7 +345,11 @@ src/GripperPlugin/PIDController.s: src/GripperPlugin/PIDController.cpp.s
 
 # target to generate assembly for a file
 src/GripperPlugin/PIDController.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/PIDController.cpp.s
+>>>>>>> master
 .PHONY : src/GripperPlugin/PIDController.cpp.s
 
 src/ScorePlugin/ScorePlugin.o: src/ScorePlugin/ScorePlugin.cpp.o
@@ -268,7 +357,11 @@ src/ScorePlugin/ScorePlugin.o: src/ScorePlugin/ScorePlugin.cpp.o
 
 # target to build an object file
 src/ScorePlugin/ScorePlugin.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o
+>>>>>>> master
 .PHONY : src/ScorePlugin/ScorePlugin.cpp.o
 
 src/ScorePlugin/ScorePlugin.i: src/ScorePlugin/ScorePlugin.cpp.i
@@ -276,7 +369,11 @@ src/ScorePlugin/ScorePlugin.i: src/ScorePlugin/ScorePlugin.cpp.i
 
 # target to preprocess a source file
 src/ScorePlugin/ScorePlugin.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.i
+>>>>>>> master
 .PHONY : src/ScorePlugin/ScorePlugin.cpp.i
 
 src/ScorePlugin/ScorePlugin.s: src/ScorePlugin/ScorePlugin.cpp.s
@@ -284,7 +381,11 @@ src/ScorePlugin/ScorePlugin.s: src/ScorePlugin/ScorePlugin.cpp.s
 
 # target to generate assembly for a file
 src/ScorePlugin/ScorePlugin.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s
+>>>>>>> master
 .PHONY : src/ScorePlugin/ScorePlugin.cpp.s
 
 src/SetupWorld.o: src/SetupWorld.cpp.o
@@ -292,7 +393,11 @@ src/SetupWorld.o: src/SetupWorld.cpp.o
 
 # target to build an object file
 src/SetupWorld.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o
+>>>>>>> master
 .PHONY : src/SetupWorld.cpp.o
 
 src/SetupWorld.i: src/SetupWorld.cpp.i
@@ -300,7 +405,11 @@ src/SetupWorld.i: src/SetupWorld.cpp.i
 
 # target to preprocess a source file
 src/SetupWorld.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i
+>>>>>>> master
 .PHONY : src/SetupWorld.cpp.i
 
 src/SetupWorld.s: src/SetupWorld.cpp.s
@@ -308,7 +417,11 @@ src/SetupWorld.s: src/SetupWorld.cpp.s
 
 # target to generate assembly for a file
 src/SetupWorld.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s
+>>>>>>> master
 .PHONY : src/SetupWorld.cpp.s
 
 # Help Target
@@ -353,6 +466,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

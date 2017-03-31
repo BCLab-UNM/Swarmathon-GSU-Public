@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src/ublox/ublox
+=======
+# Install script for directory: /home/group3/rover_workspace/src/ublox/ublox
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +37,10 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox" TYPE FILE FILES "/home/group1/rover_workspace/src/ublox/ublox/package.xml")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox" TYPE FILE FILES "/home/group3/rover_workspace/src/ublox/ublox/package.xml")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

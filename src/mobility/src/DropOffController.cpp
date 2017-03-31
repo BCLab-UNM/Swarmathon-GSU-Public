@@ -46,7 +46,7 @@ void DropOffController::calculateDecision() {
     //to resart our search.
     if(reachedCollectionPoint)
     {
-        result.goalDriving = false;
+        result.goalDriving = true;
 
         //timerStartTime was reset before we entered reachedCollectionPoint so
         //we can now use it for our timeing of 2 seconds

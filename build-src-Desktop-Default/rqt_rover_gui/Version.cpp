@@ -6,5 +6,10 @@
 #include "Version.h"
 
 const QString GIT_BRANCH = "master";
+<<<<<<< HEAD
 const QString GIT_VERSION = "v1.2.14";
 const QString BUILD_TIME = "2017-03-20-17:40";
+=======
+const QString GIT_VERSION = "v1.2.21";
+const QString BUILD_TIME = "2017-03-30-17:58";
+>>>>>>> master

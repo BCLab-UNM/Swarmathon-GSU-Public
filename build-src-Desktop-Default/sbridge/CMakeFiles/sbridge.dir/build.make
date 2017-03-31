@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include sbridge/CMakeFiles/sbridge.dir/depend.make
@@ -50,6 +57,7 @@ include sbridge/CMakeFiles/sbridge.dir/progress.make
 include sbridge/CMakeFiles/sbridge.dir/flags.make
 
 sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o: sbridge/CMakeFiles/sbridge.dir/flags.make
+<<<<<<< HEAD
 sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o: /home/group1/rover_workspace/src/sbridge/src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o"
@@ -62,6 +70,20 @@ sbridge/CMakeFiles/sbridge.dir/src/main.cpp.i: cmake_force
 sbridge/CMakeFiles/sbridge.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbridge.dir/src/main.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/sbridge/src/main.cpp -o CMakeFiles/sbridge.dir/src/main.cpp.s
+=======
+sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o: /home/group3/rover_workspace/src/sbridge/src/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sbridge.dir/src/main.cpp.o -c /home/group3/rover_workspace/src/sbridge/src/main.cpp
+
+sbridge/CMakeFiles/sbridge.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbridge.dir/src/main.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/sbridge/src/main.cpp > CMakeFiles/sbridge.dir/src/main.cpp.i
+
+sbridge/CMakeFiles/sbridge.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbridge.dir/src/main.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/sbridge/src/main.cpp -o CMakeFiles/sbridge.dir/src/main.cpp.s
+>>>>>>> master
 
 sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o.requires:
 .PHONY : sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o.requires
@@ -73,6 +95,7 @@ sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o.provides: sbridge/CMakeFiles/sbrid
 sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o.provides.build: sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o
 
 sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o: sbridge/CMakeFiles/sbridge.dir/flags.make
+<<<<<<< HEAD
 sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o: /home/group1/rover_workspace/src/sbridge/src/sbridge.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o"
@@ -85,6 +108,20 @@ sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.i: cmake_force
 sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbridge.dir/src/sbridge.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/sbridge/src/sbridge.cpp -o CMakeFiles/sbridge.dir/src/sbridge.cpp.s
+=======
+sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o: /home/group3/rover_workspace/src/sbridge/src/sbridge.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sbridge.dir/src/sbridge.cpp.o -c /home/group3/rover_workspace/src/sbridge/src/sbridge.cpp
+
+sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sbridge.dir/src/sbridge.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/sbridge/src/sbridge.cpp > CMakeFiles/sbridge.dir/src/sbridge.cpp.i
+
+sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sbridge.dir/src/sbridge.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/sbridge/src/sbridge.cpp -o CMakeFiles/sbridge.dir/src/sbridge.cpp.s
+>>>>>>> master
 
 sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o.requires:
 .PHONY : sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o.requires
@@ -125,7 +162,11 @@ devel/lib/sbridge/sbridge: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/sbridge/sbridge: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 devel/lib/sbridge/sbridge: sbridge/CMakeFiles/sbridge.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../devel/lib/sbridge/sbridge"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/sbridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbridge.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbridge.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 sbridge/CMakeFiles/sbridge.dir/build: devel/lib/sbridge/sbridge
@@ -136,10 +177,18 @@ sbridge/CMakeFiles/sbridge.dir/requires: sbridge/CMakeFiles/sbridge.dir/src/sbri
 .PHONY : sbridge/CMakeFiles/sbridge.dir/requires
 
 sbridge/CMakeFiles/sbridge.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/sbridge && $(CMAKE_COMMAND) -P CMakeFiles/sbridge.dir/cmake_clean.cmake
 .PHONY : sbridge/CMakeFiles/sbridge.dir/clean
 
 sbridge/CMakeFiles/sbridge.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/sbridge /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/sbridge /home/group1/rover_workspace/build-src-Desktop-Default/sbridge/CMakeFiles/sbridge.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/sbridge && $(CMAKE_COMMAND) -P CMakeFiles/sbridge.dir/cmake_clean.cmake
+.PHONY : sbridge/CMakeFiles/sbridge.dir/clean
+
+sbridge/CMakeFiles/sbridge.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/sbridge /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/sbridge /home/group3/rover_workspace/build-src-Desktop-Default/sbridge/CMakeFiles/sbridge.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : sbridge/CMakeFiles/sbridge.dir/depend
 

@@ -4,7 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/ublox/ublox_msgs/src/ublox_msgs.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/ublox_msgs.dir/src/ublox_msgs.cpp.o"
+=======
+  "/home/group3/rover_workspace/src/ublox/ublox_msgs/src/ublox_msgs.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/ublox_msgs.dir/src/ublox_msgs.cpp.o"
+>>>>>>> master
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,8 +26,13 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "devel/include"
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/ublox/ublox_msgs/include"
   "/home/group1/rover_workspace/src/ublox/ublox_serialization/include"
+=======
+  "/home/group3/rover_workspace/src/ublox/ublox_msgs/include"
+  "/home/group3/rover_workspace/src/ublox/ublox_serialization/include"
+>>>>>>> master
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

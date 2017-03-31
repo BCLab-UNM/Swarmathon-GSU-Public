@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src/rqt_rover_gui
+=======
+# Install script for directory: /home/group3/rover_workspace/src/rqt_rover_gui
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,21 +37,38 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_gui.pc")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_gui.pc")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_rover_gui/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_guiConfig.cmake"
     "/home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_guiConfig-version.cmake"
+=======
+    "/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_guiConfig.cmake"
+    "/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/installspace/rqt_rover_guiConfig-version.cmake"
+>>>>>>> master
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_rover_gui" TYPE FILE FILES "/home/group1/rover_workspace/src/rqt_rover_gui/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   INCLUDE("/home/group1/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/safe_execute_install.cmake")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rqt_rover_gui" TYPE FILE FILES "/home/group3/rover_workspace/src/rqt_rover_gui/package.xml")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  INCLUDE("/home/group3/rover_workspace/build-src-Desktop-Default/rqt_rover_gui/catkin_generated/safe_execute_install.cmake")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

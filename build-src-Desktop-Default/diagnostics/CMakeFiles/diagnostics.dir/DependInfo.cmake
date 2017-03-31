@@ -4,9 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/diagnostics/src/Diagnostics.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o"
   "/home/group1/rover_workspace/src/diagnostics/src/WirelessDiags.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o"
   "/home/group1/rover_workspace/src/diagnostics/src/driver.cpp" "/home/group1/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o"
+=======
+  "/home/group3/rover_workspace/src/diagnostics/src/Diagnostics.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o"
+  "/home/group3/rover_workspace/src/diagnostics/src/WirelessDiags.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/WirelessDiags.cpp.o"
+  "/home/group3/rover_workspace/src/diagnostics/src/driver.cpp" "/home/group3/rover_workspace/build-src-Desktop-Default/diagnostics/CMakeFiles/diagnostics.dir/src/driver.cpp.o"
+>>>>>>> master
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

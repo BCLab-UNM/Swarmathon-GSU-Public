@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include gazebo_plugins/CMakeFiles/gazebo_plugins.dir/depend.make
@@ -50,6 +57,7 @@ include gazebo_plugins/CMakeFiles/gazebo_plugins.dir/progress.make
 include gazebo_plugins/CMakeFiles/gazebo_plugins.dir/flags.make
 
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o: gazebo_plugins/CMakeFiles/gazebo_plugins.dir/flags.make
+<<<<<<< HEAD
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o: /home/group1/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o"
@@ -62,6 +70,20 @@ gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i: cmake_force
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp -o CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s
+=======
+gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o: /home/group3/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o -c /home/group3/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp
+
+gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp > CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.i
+
+gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/gazebo_plugins/src/SetupWorld.cpp -o CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.s
+>>>>>>> master
 
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o.requires:
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o.requires
@@ -83,8 +105,16 @@ devel/lib/libgazebo_plugins.so: gazebo_plugins/CMakeFiles/gazebo_plugins.dir/src
 devel/lib/libgazebo_plugins.so: gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build.make
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libgazebo_ros_api_plugin.so
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libgazebo_ros_paths_plugin.so
+<<<<<<< HEAD
 devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libroslib.so
+=======
+devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libroslib.so
+devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/librospack.so
+devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+>>>>>>> master
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libtf.so
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libtf2_ros.so
 devel/lib/libgazebo_plugins.so: /opt/ros/indigo/lib/libactionlib.so
@@ -110,7 +140,11 @@ devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/libgazebo_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 devel/lib/libgazebo_plugins.so: gazebo_plugins/CMakeFiles/gazebo_plugins.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../devel/lib/libgazebo_plugins.so"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_plugins.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_plugins.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/build: devel/lib/libgazebo_plugins.so
@@ -120,10 +154,18 @@ gazebo_plugins/CMakeFiles/gazebo_plugins.dir/requires: gazebo_plugins/CMakeFiles
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/requires
 
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_plugins.dir/cmake_clean.cmake
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/clean
 
 gazebo_plugins/CMakeFiles/gazebo_plugins.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/gazebo_plugins /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_plugins.dir/cmake_clean.cmake
+.PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/clean
+
+gazebo_plugins/CMakeFiles/gazebo_plugins.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/gazebo_plugins /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins.dir/depend
 

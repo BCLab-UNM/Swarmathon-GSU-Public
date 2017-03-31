@@ -26,8 +26,13 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/qt4/QtGui"
   "/usr/include/qt4/QtXml"
   "/usr/include/qt4/QtCore"
+<<<<<<< HEAD
   "/home/group1/rover_workspace/src/rqt_rover_gui/include"
   "/home/group1/rover_workspace/src/rqt_rover_gui/src"
+=======
+  "/home/group3/rover_workspace/src/rqt_rover_gui/include"
+  "/home/group3/rover_workspace/src/rqt_rover_gui/src"
+>>>>>>> master
   "rqt_rover_gui"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

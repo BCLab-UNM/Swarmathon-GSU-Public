@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/depend.make
@@ -50,6 +57,7 @@ include gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/progress.make
 include gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/flags.make
 
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o: gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/flags.make
+<<<<<<< HEAD
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o: /home/group1/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o"
@@ -62,6 +70,20 @@ gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.c
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp -o CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s
+=======
+gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o: /home/group3/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o -c /home/group3/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp
+
+gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp > CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.i
+
+gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/gazebo_plugins/src/ScorePlugin/ScorePlugin.cpp -o CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.s
+>>>>>>> master
 
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o.requires:
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/src/ScorePlugin/ScorePlugin.cpp.o.requires
@@ -83,7 +105,11 @@ devel/lib/libgazebo_plugins_score.so: gazebo_plugins/CMakeFiles/gazebo_plugins_s
 devel/lib/libgazebo_plugins_score.so: gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build.make
 devel/lib/libgazebo_plugins_score.so: gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../devel/lib/libgazebo_plugins_score.so"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_plugins_score.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_plugins_score.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/build: devel/lib/libgazebo_plugins_score.so
@@ -93,10 +119,18 @@ gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/requires: gazebo_plugins/CMak
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/requires
 
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_plugins_score.dir/cmake_clean.cmake
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/clean
 
 gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/gazebo_plugins /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins /home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_plugins_score.dir/cmake_clean.cmake
+.PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/clean
+
+gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/gazebo_plugins /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins /home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : gazebo_plugins/CMakeFiles/gazebo_plugins_score.dir/depend
 

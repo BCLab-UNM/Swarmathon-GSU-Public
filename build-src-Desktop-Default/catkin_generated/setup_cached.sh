@@ -7,8 +7,16 @@
 # new environment variables
 
 # modified environment variables
+<<<<<<< HEAD
 export CMAKE_PREFIX_PATH="/home/group1/rover_workspace/build-src-Desktop-Default/devel:$CMAKE_PREFIX_PATH"
 export PATH="/opt/ros/indigo/bin:/usr/lib/x86_64-linux-gnu/qt5/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/qt5/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PWD="/home/group1/rover_workspace/build-src-Desktop-Default"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/group1/rover_workspace/build-src-Desktop-Default/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/group1/rover_workspace/src:$ROS_PACKAGE_PATH"
+=======
+export CMAKE_PREFIX_PATH="/home/group3/rover_workspace/build-src-Desktop-Default/devel:$CMAKE_PREFIX_PATH"
+export PATH="/opt/ros/indigo/bin:/usr/lib/x86_64-linux-gnu/qt5/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/qt5/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PWD="/home/group3/rover_workspace/build-src-Desktop-Default"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/group3/rover_workspace/build-src-Desktop-Default/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/group3/rover_workspace/src:$ROS_PACKAGE_PATH"
+>>>>>>> master

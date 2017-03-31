@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include abridge/CMakeFiles/abridge.dir/depend.make
@@ -50,6 +57,7 @@ include abridge/CMakeFiles/abridge.dir/progress.make
 include abridge/CMakeFiles/abridge.dir/flags.make
 
 abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o: abridge/CMakeFiles/abridge.dir/flags.make
+<<<<<<< HEAD
 abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o: /home/group1/rover_workspace/src/abridge/src/abridge.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o"
@@ -62,6 +70,20 @@ abridge/CMakeFiles/abridge.dir/src/abridge.cpp.i: cmake_force
 abridge/CMakeFiles/abridge.dir/src/abridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abridge.dir/src/abridge.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/abridge/src/abridge.cpp -o CMakeFiles/abridge.dir/src/abridge.cpp.s
+=======
+abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o: /home/group3/rover_workspace/src/abridge/src/abridge.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abridge.dir/src/abridge.cpp.o -c /home/group3/rover_workspace/src/abridge/src/abridge.cpp
+
+abridge/CMakeFiles/abridge.dir/src/abridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abridge.dir/src/abridge.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/abridge/src/abridge.cpp > CMakeFiles/abridge.dir/src/abridge.cpp.i
+
+abridge/CMakeFiles/abridge.dir/src/abridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abridge.dir/src/abridge.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/abridge/src/abridge.cpp -o CMakeFiles/abridge.dir/src/abridge.cpp.s
+>>>>>>> master
 
 abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o.requires:
 .PHONY : abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o.requires
@@ -73,6 +95,7 @@ abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o.provides: abridge/CMakeFiles/ab
 abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o.provides.build: abridge/CMakeFiles/abridge.dir/src/abridge.cpp.o
 
 abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o: abridge/CMakeFiles/abridge.dir/flags.make
+<<<<<<< HEAD
 abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o: /home/group1/rover_workspace/src/abridge/src/usbSerial.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o"
@@ -85,6 +108,20 @@ abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.i: cmake_force
 abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abridge.dir/src/usbSerial.cpp.s"
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group1/rover_workspace/src/abridge/src/usbSerial.cpp -o CMakeFiles/abridge.dir/src/usbSerial.cpp.s
+=======
+abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o: /home/group3/rover_workspace/src/abridge/src/usbSerial.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abridge.dir/src/usbSerial.cpp.o -c /home/group3/rover_workspace/src/abridge/src/usbSerial.cpp
+
+abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abridge.dir/src/usbSerial.cpp.i"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/group3/rover_workspace/src/abridge/src/usbSerial.cpp > CMakeFiles/abridge.dir/src/usbSerial.cpp.i
+
+abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abridge.dir/src/usbSerial.cpp.s"
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/group3/rover_workspace/src/abridge/src/usbSerial.cpp -o CMakeFiles/abridge.dir/src/usbSerial.cpp.s
+>>>>>>> master
 
 abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o.requires:
 .PHONY : abridge/CMakeFiles/abridge.dir/src/usbSerial.cpp.o.requires
@@ -130,7 +167,11 @@ devel/lib/abridge/abridge: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/abridge/abridge: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 devel/lib/abridge/abridge: abridge/CMakeFiles/abridge.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../devel/lib/abridge/abridge"
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abridge.dir/link.txt --verbose=$(VERBOSE)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abridge.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> master
 
 # Rule to build all files generated by this target.
 abridge/CMakeFiles/abridge.dir/build: devel/lib/abridge/abridge
@@ -141,10 +182,18 @@ abridge/CMakeFiles/abridge.dir/requires: abridge/CMakeFiles/abridge.dir/src/usbS
 .PHONY : abridge/CMakeFiles/abridge.dir/requires
 
 abridge/CMakeFiles/abridge.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -P CMakeFiles/abridge.dir/cmake_clean.cmake
 .PHONY : abridge/CMakeFiles/abridge.dir/clean
 
 abridge/CMakeFiles/abridge.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/abridge /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/abridge /home/group1/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -P CMakeFiles/abridge.dir/cmake_clean.cmake
+.PHONY : abridge/CMakeFiles/abridge.dir/clean
+
+abridge/CMakeFiles/abridge.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/abridge /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/abridge /home/group3/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/abridge.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/abridge.dir/depend
 

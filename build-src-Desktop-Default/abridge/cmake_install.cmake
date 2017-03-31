@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src/abridge
+=======
+# Install script for directory: /home/group3/rover_workspace/src/abridge
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,17 +37,30 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridge.pc")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridge.pc")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abridge/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/group1/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridgeConfig.cmake"
     "/home/group1/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridgeConfig-version.cmake"
+=======
+    "/home/group3/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridgeConfig.cmake"
+    "/home/group3/rover_workspace/build-src-Desktop-Default/abridge/catkin_generated/installspace/abridgeConfig-version.cmake"
+>>>>>>> master
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abridge" TYPE FILE FILES "/home/group1/rover_workspace/src/abridge/package.xml")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abridge" TYPE FILE FILES "/home/group3/rover_workspace/src/abridge/package.xml")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

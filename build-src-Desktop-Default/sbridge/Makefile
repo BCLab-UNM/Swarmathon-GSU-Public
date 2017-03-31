@@ -39,10 +39,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +127,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group1/rover_workspace/build-src-Desktop-Default/sbridge/CMakeFiles/progress.marks
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/group1/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles /home/group3/rover_workspace/build-src-Desktop-Default/sbridge/CMakeFiles/progress.marks
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/group3/rover_workspace/build-src-Desktop-Default/CMakeFiles 0
+>>>>>>> master
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/clean
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/clean
+>>>>>>> master
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +153,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/preinstall
+>>>>>>> master
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/preinstall
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/preinstall
+>>>>>>> master
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> master
 .PHONY : depend
 
 # Convenience name for target.
 sbridge/CMakeFiles/sbridge.dir/rule:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/CMakeFiles/sbridge.dir/rule
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f CMakeFiles/Makefile2 sbridge/CMakeFiles/sbridge.dir/rule
+>>>>>>> master
 .PHONY : sbridge/CMakeFiles/sbridge.dir/rule
 
 # Convenience name for target.
@@ -160,7 +193,11 @@ sbridge: sbridge/CMakeFiles/sbridge.dir/rule
 
 # fast build rule for target.
 sbridge/fast:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/build
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/build
+>>>>>>> master
 .PHONY : sbridge/fast
 
 src/main.o: src/main.cpp.o
@@ -168,7 +205,11 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.o
+>>>>>>> master
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -176,7 +217,11 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.i
+>>>>>>> master
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -184,7 +229,11 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/main.cpp.s
+>>>>>>> master
 .PHONY : src/main.cpp.s
 
 src/sbridge.o: src/sbridge.cpp.o
@@ -192,7 +241,11 @@ src/sbridge.o: src/sbridge.cpp.o
 
 # target to build an object file
 src/sbridge.cpp.o:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.o
+>>>>>>> master
 .PHONY : src/sbridge.cpp.o
 
 src/sbridge.i: src/sbridge.cpp.i
@@ -200,7 +253,11 @@ src/sbridge.i: src/sbridge.cpp.i
 
 # target to preprocess a source file
 src/sbridge.cpp.i:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.i
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.i
+>>>>>>> master
 .PHONY : src/sbridge.cpp.i
 
 src/sbridge.s: src/sbridge.cpp.s
@@ -208,7 +265,11 @@ src/sbridge.s: src/sbridge.cpp.s
 
 # target to generate assembly for a file
 src/sbridge.cpp.s:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.s
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(MAKE) -f sbridge/CMakeFiles/sbridge.dir/build.make sbridge/CMakeFiles/sbridge.dir/src/sbridge.cpp.s
+>>>>>>> master
 .PHONY : src/sbridge.cpp.s
 
 # Help Target
@@ -242,6 +303,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> master
 .PHONY : cmake_check_build_system
 

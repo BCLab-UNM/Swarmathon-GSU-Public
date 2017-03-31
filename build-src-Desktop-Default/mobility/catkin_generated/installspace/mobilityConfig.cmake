@@ -67,8 +67,13 @@ set(mobility_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(mobility_SOURCE_PREFIX /home/group1/rover_workspace/src/mobility)
   set(mobility_DEVEL_PREFIX /home/group1/rover_workspace/build-src-Desktop-Default/devel)
+=======
+  set(mobility_SOURCE_PREFIX /home/group3/rover_workspace/src/mobility)
+  set(mobility_DEVEL_PREFIX /home/group3/rover_workspace/build-src-Desktop-Default/devel)
+>>>>>>> master
   set(mobility_INSTALL_PREFIX "")
   set(mobility_PREFIX ${mobility_DEVEL_PREFIX})
 else()
@@ -122,7 +127,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /usr/local/lib;/home/group1/rover_workspace/devel/lib;/opt/ros/indigo/lib)
+=======
+    foreach(path /usr/local/lib;/home/group3/rover_workspace/devel/lib;/opt/ros/indigo/lib)
+>>>>>>> master
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

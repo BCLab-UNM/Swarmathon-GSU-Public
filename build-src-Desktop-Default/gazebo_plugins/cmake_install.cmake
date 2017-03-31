@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/group1/rover_workspace/src/gazebo_plugins
+=======
+# Install script for directory: /home/group3/rover_workspace/src/gazebo_plugins
+>>>>>>> master
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,17 +37,30 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_plugins.pc")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_plugins.pc")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_plugins/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_pluginsConfig.cmake"
     "/home/group1/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_pluginsConfig-version.cmake"
+=======
+    "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_pluginsConfig.cmake"
+    "/home/group3/rover_workspace/build-src-Desktop-Default/gazebo_plugins/catkin_generated/installspace/gazebo_pluginsConfig-version.cmake"
+>>>>>>> master
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_plugins" TYPE FILE FILES "/home/group1/rover_workspace/src/gazebo_plugins/package.xml")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_plugins" TYPE FILE FILES "/home/group3/rover_workspace/src/gazebo_plugins/package.xml")
+>>>>>>> master
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

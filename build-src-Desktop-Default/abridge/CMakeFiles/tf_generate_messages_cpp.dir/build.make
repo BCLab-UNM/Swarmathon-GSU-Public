@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Utility rule file for tf_generate_messages_cpp.
 
@@ -56,10 +63,18 @@ abridge/CMakeFiles/tf_generate_messages_cpp.dir/build: tf_generate_messages_cpp
 .PHONY : abridge/CMakeFiles/tf_generate_messages_cpp.dir/build
 
 abridge/CMakeFiles/tf_generate_messages_cpp.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : abridge/CMakeFiles/tf_generate_messages_cpp.dir/clean
 
 abridge/CMakeFiles/tf_generate_messages_cpp.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/abridge /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/abridge /home/group1/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/abridge && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : abridge/CMakeFiles/tf_generate_messages_cpp.dir/clean
+
+abridge/CMakeFiles/tf_generate_messages_cpp.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/abridge /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/abridge /home/group3/rover_workspace/build-src-Desktop-Default/abridge/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : abridge/CMakeFiles/tf_generate_messages_cpp.dir/depend
 

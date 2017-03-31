@@ -35,10 +35,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/group1/rover_workspace/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
+=======
+CMAKE_SOURCE_DIR = /home/group3/rover_workspace/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/group3/rover_workspace/build-src-Desktop-Default
+>>>>>>> master
 
 # Utility rule file for _ublox_msgs_generate_messages_check_deps_NavSTATUS.
 
@@ -46,7 +53,11 @@ CMAKE_BINARY_DIR = /home/group1/rover_workspace/build-src-Desktop-Default
 include ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/progress.make
 
 ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ublox_msgs /home/group1/rover_workspace/src/ublox/ublox_msgs/msg/NavSTATUS.msg 
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ublox_msgs /home/group3/rover_workspace/src/ublox/ublox_msgs/msg/NavSTATUS.msg 
+>>>>>>> master
 
 _ublox_msgs_generate_messages_check_deps_NavSTATUS: ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS
 _ublox_msgs_generate_messages_check_deps_NavSTATUS: ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/build.make
@@ -57,10 +68,18 @@ ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.d
 .PHONY : ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/build
 
 ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/clean:
+<<<<<<< HEAD
 	cd /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/cmake_clean.cmake
 .PHONY : ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/clean
 
 ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/depend:
 	cd /home/group1/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group1/rover_workspace/src /home/group1/rover_workspace/src/ublox/ublox_msgs /home/group1/rover_workspace/build-src-Desktop-Default /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs /home/group1/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/cmake_clean.cmake
+.PHONY : ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/clean
+
+ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/depend:
+	cd /home/group3/rover_workspace/build-src-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/group3/rover_workspace/src /home/group3/rover_workspace/src/ublox/ublox_msgs /home/group3/rover_workspace/build-src-Desktop-Default /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs /home/group3/rover_workspace/build-src-Desktop-Default/ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : ublox/ublox_msgs/CMakeFiles/_ublox_msgs_generate_messages_check_deps_NavSTATUS.dir/depend
 
