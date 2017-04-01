@@ -369,7 +369,7 @@ void mobilityStateMachine(const ros::TimerEvent&) {
             else if (fabs(angles::shortest_angular_distance(currentLocation.theta, goalLocation.theta)) > rotateOnlyAngleTolerance) {
                 stateMachineState = STATE_MACHINE_ROTATE;
             }
-            //If goal has not yet been reached drive and maintane heading
+            //If goal has not yet been reached drive and maintan heading
             else if (fabs(angles::shortest_angular_distance(currentLocation.theta, atan2(goalLocation.y - currentLocation.y, goalLocation.x - currentLocation.x))) < M_PI_2) {
                 stateMachineState = STATE_MACHINE_SKID_STEER;
             }

@@ -1,5 +1,4 @@
 #include "Diagnostics.h"
-
 #include <string>
 #include <usb.h>
 #include <sys/stat.h> // To check if a file exists
@@ -500,4 +499,3 @@ bool Diagnostics::checkIfSimulatedRover() {
 Diagnostics::~Diagnostics() {
   gazebo::shutdown();
 }
-

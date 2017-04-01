@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
         cout << "Welcome to the world of tomorrow " << publishedName << "! Obstacle module started." << endl;
     } else {
         publishedName = hostname;
-        cout << "No name selected. Default is: " << publishedName << endl;
+        cout << "GSU: Go Tiger-Bots! " << publishedName << endl;
     }
 
     ros::init(argc, argv, (publishedName + "_OBSTACLE"));

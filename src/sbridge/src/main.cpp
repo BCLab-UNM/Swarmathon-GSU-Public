@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
         cout << "Welcome to the world of tomorrow " << publishedName << "!  ABridge module started." << endl;
     } else {
         publishedName = hostname;
-        cout << "No Name Selected. Default is: " << publishedName << endl;
+        cout << "GSU: Go Tiger-Bot! " << publishedName << endl;
     }
 
     ros::init(argc, argv, (hostname + "_SBRIDGE"), ros::init_options::NoSigintHandler);

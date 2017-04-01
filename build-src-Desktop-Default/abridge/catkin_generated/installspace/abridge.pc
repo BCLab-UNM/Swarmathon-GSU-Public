@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: abridge
-Description: Description of abridge
-Version: 0.2.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: geometry_msgs roscpp sensor_msgs std_msgs tf nav_msgs

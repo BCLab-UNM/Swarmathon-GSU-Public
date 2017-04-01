@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cassert>
 #include STACK_H_
+#include <stack>
 #include <cstdlib>
 #include <geometry_msgs/Pose2D.h>
 #include <random_numbers/random_numbers.h>
@@ -20,16 +21,12 @@ public:
     // performs search pattern
     geometry_msgs::Pose2D search(geometry_msgs::Pose2D currentLocation);
 
-
-
-    using namespace std;
+using namespace std;
 
 public: stack::stack();
 
     public:
-      stack();
      struct node * top;
-       ~stack();
 
         void push(int);
         int pop();
@@ -48,14 +45,12 @@ public: stack::stack();
 stack:
         stack();
         {
-            top = NULL;
         }
 
        void stack::push;{
        int data;
             node *p;
             if((p=(node*)malloc(sizeof(node)))==NULL){
-                cout<<"Memory Exhausted";
                 exit(0);
             }
 
