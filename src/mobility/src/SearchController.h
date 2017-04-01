@@ -16,7 +16,7 @@ class SearchController {
 
 public:
 
-    SearchController();
+    SearchController::SearchController();
 
     // performs search pattern
     geometry_msgs::Pose2D search(geometry_msgs::Pose2D currentLocation);
@@ -27,6 +27,7 @@ public: stack::stack();
 
     public:
      struct node * top;
+        ~stack();
 
         void push(int);
         int pop();
@@ -45,12 +46,14 @@ public: stack::stack();
 stack:
         stack();
         {
+          top = NULL;
         }
 
        void stack::push;{
        int data;
             node *p;
             if((p=(node*)malloc(sizeof(node)))==NULL){
+                cout<<"Memory Exhausted";
                 exit(0);
             }
 

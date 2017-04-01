@@ -7,4 +7,4 @@
 
 const QString GIT_BRANCH = "master";
 const QString GIT_VERSION = "v1.2.21";
-const QString BUILD_TIME = "2017-03-31-19:20";
+const QString BUILD_TIME = "2017-03-31-19:51";
